@@ -64,10 +64,18 @@ function Navbar() {
         <Link to="/" className="OptBtn" ref={optsRef}>
           Home
         </Link>
-        <div className="OptBtn">Services</div>
-        <div className="OptBtn">Resume</div>
-        <div className="OptBtn">Works</div>
-        <div className="OptBtn">Contact</div>
+        <Link to="/Services" className="OptBtn">
+          Services
+        </Link>
+        <Link to="/Resume" className="OptBtn">
+          Resume
+        </Link>
+        <Link to="/MyWorks" className="OptBtn">
+          Works
+        </Link>
+        <Link to="/Contact" className="OptBtn">
+          Contact
+        </Link>
         <div className="OptBtn" style={{ border: "none" }} onClick={closeMenu}>
           <svg
             xmlns="http://www.w3.org/2000/svg"

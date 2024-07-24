@@ -1,14 +1,12 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import WorksBody from "../components/WorksBody";
 
-function Works() {
+function Contact() {
   return (
     <div>
       <Navbar />
-      <WorksBody />
     </div>
   );
 }
 
-export default Works;
+export default Contact;

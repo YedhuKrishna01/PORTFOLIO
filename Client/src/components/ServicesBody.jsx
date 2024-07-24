@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 function ServicesBody() {
   return (
@@ -6,7 +6,10 @@ function ServicesBody() {
       <div className="text-white col-start-2 col-span-10 h-auto bg-zinc-950 p-5 rounded-lg">
         <div className="font-audio text-lg flex justify-center">
           Web Development
-          <div className="rounded-full flex justify-center items-center ml-2 bg-red w-7 h-7">
+          <Link
+            to="/MyWorks"
+            className="rounded-full flex justify-center items-center ml-2 bg-red w-7 h-7"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="14px"
@@ -16,7 +19,7 @@ function ServicesBody() {
             >
               <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" />
             </svg>
-          </div>
+          </Link>
         </div>
         <div className="text-xs mt-1">
           My expertise in ReactJS allows me to build dynamic and efficient
