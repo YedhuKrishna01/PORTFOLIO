@@ -2,7 +2,7 @@ import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
-function Works3D() {
+function WorksDevop() {
   const slides = [
     { url: "./upscale4.webp" },
     { url: "./upscale2.webp" },
@@ -62,4 +62,4 @@ function Works3D() {
   );
 }
 
-export default Works3D;
+export default WorksDevop;

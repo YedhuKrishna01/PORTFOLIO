@@ -4,8 +4,8 @@ import { RxDotFilled } from "react-icons/rx";
 
 function WorksDesigns() {
   const slides = [
-    { url: "./knowit.jpeg" },
     { url: "./codeit.jpeg" },
+    { url: "./knowit.jpeg" },
     { url: "./blog.jpeg" },
   ];
 
@@ -26,25 +26,27 @@ function WorksDesigns() {
   };
 
   return (
-    <div>
-      <div className="text-white text-lg font-audio">UI-Designs</div>
-      <div className="w-full h-56 py-4 px-1 relative">
+    <div className="grid grid-cols-12 mt-7">
+      <div className="text-white col-start-2 col-span-10 text-lg font-audio">
+        3D-Models
+      </div>
+      <div className="col-start-2 col-span-10 w-full h-48 py-4 px-1 relative">
         <img
-          className="w-full h-52 rounded-2xl duration-500"
+          className="w-full h-44 rounded-lg duration-500"
           src={`${slides[currentIndex].url}`}
         />
         <BsChevronCompactLeft
           onClick={prevSlide}
           size={30}
-          className="absolute top-[55%] left-5 text-2xl rounded-full p-2 text-gray-400 cursor-pointer"
+          className="absolute top-[45%] left-5 text-2xl rounded-full p-2 text-gray-400 cursor-pointer"
         />
         <BsChevronCompactRight
           onClick={nextSlide}
           size={30}
-          className="absolute top-[55%] right-5 text-2xl rounded-full p-2 text-gray-400 cursor-pointer"
+          className="absolute top-[45%] right-5 text-2xl rounded-full p-2 text-gray-400 cursor-pointer"
         />
       </div>
-      <div className="flex top-4 justify-center py-2 mt-5">
+      <div className="col-start-2 col-span-10 flex mt-4 justify-center">
         {slides.map((_, slideIndex) => (
           <RxDotFilled
             key={slideIndex}
