@@ -3,12 +3,7 @@ import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
 
 function WorksDevop() {
-  const slides = [
-    { url: "./upscale4.webp" },
-    { url: "./upscale2.webp" },
-    { url: "./upscale1.webp" },
-    { url: "./upscale3.webp" },
-  ];
+  const slides = [{ url: "./upscale4.webp" }];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -29,7 +24,7 @@ function WorksDevop() {
   return (
     <div className="grid grid-cols-12 mt-7">
       <div className="text-white col-start-2 col-span-10 text-lg font-audio">
-        3D-Models
+        Development Projects
       </div>
       <div className="col-start-2 col-span-10 w-full h-48 py-4 px-1 relative">
         <img

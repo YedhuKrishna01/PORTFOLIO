@@ -28,7 +28,7 @@ function WorksDesigns() {
   return (
     <div className="grid grid-cols-12 mt-7">
       <div className="text-white col-start-2 col-span-10 text-lg font-audio">
-        3D-Models
+        Web Designs
       </div>
       <div className="col-start-2 col-span-10 w-full h-48 py-4 px-1 relative">
         <img

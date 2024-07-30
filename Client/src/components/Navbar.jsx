@@ -39,10 +39,18 @@ function Navbar() {
       <Link to="/" className="col-start-7 notMobile">
         Home
       </Link>
-      <div className="notMobile">Services</div>
-      <div className="notMobile">Resume</div>
-      <div className="notMobile">Works</div>
-      <div className="notMobile">Contact</div>
+      <Link to="/Services" className="notMobile">
+        Services
+      </Link>
+      <Link to="/Resume" className="notMobile">
+        Resume
+      </Link>
+      <Link to="/MyWorks" className="notMobile">
+        Works
+      </Link>
+      <Link to="/Contact" className="notMobile">
+        Contact
+      </Link>
 
       {/* The Hamburger Menu which is only shown in mobile devices */}
 
