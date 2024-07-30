@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function ServicesBody() {
   return (
-    <div className="grid gap-y-10 grid-cols-12">
-      <div className="text-white col-start-2 col-span-10 h-auto bg-zinc-950 p-5 rounded-lg">
+    <div className="grid gap-y-10 lg:gap-3 grid-cols-12">
+      <div className="text-white col-start-2 col-span-10 lg:col-span-5 lg:col-start-2 h-auto bg-zinc-950 p-5 rounded-lg">
         <div className="font-audio text-lg flex justify-center">
           Web Development
           <Link
@@ -21,7 +21,7 @@ function ServicesBody() {
             </svg>
           </Link>
         </div>
-        <div className="text-xs mt-1">
+        <div className="text-xs text-justify mt-1">
           My expertise in ReactJS allows me to build dynamic and efficient
           single-page applications, while my knowledge of NodeJS and ExpressJS
           equips me to develop robust backend services. I am proficient in using
@@ -34,10 +34,13 @@ function ServicesBody() {
           user-friendly.
         </div>
       </div>
-      <div className="text-white col-start-2 col-span-10 h-auto bg-zinc-950 p-5 rounded-lg">
+      <div className="text-white col-start-2 col-span-10 lg:col-span-5 h-auto bg-zinc-950 p-5 rounded-lg">
         <div className="font-audio text-lg flex justify-center">
           UI Designing
-          <div className="rounded-full flex justify-center items-center ml-2 goto bg-red w-7 h-7">
+          <Link
+            to="/MyWorks"
+            className="rounded-full flex justify-center items-center ml-2 bg-red w-7 h-7"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="14px"
@@ -47,9 +50,9 @@ function ServicesBody() {
             >
               <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" />
             </svg>
-          </div>
+          </Link>
         </div>
-        <div className="text-xs mt-1">
+        <div className="text-xs text-justify mt-1">
           With the help of tools like Figma and my strong foundation in HTML and
           CSS I am able to craft intuitive and aesthetically pleasing
           interfaces. I use design frameworks such as Bootstrap and Tailwind CSS
@@ -60,10 +63,13 @@ function ServicesBody() {
           and effective in meeting business objectives.
         </div>
       </div>
-      <div className="text-white col-start-2 col-span-10 h-auto bg-zinc-950 p-5 rounded-lg">
+      <div className="text-white col-start-2 col-span-10 lg:col-span-5 lg:col-start-2 h-auto bg-zinc-950 p-5 rounded-lg">
         <div className="font-audio text-lg flex justify-center">
           3D-Modelling
-          <div className="rounded-full flex justify-center items-center ml-2 bg-red w-7 h-7">
+          <Link
+            to="/MyWorks"
+            className="rounded-full flex justify-center items-center ml-2 bg-red w-7 h-7"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               height="14px"
@@ -73,17 +79,27 @@ function ServicesBody() {
             >
               <path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z" />
             </svg>
-          </div>
+          </Link>
         </div>
-        <div className="text-xs mt-1">
+        <div className="text-xs text-justify mt-1">
           My 3D modeling skills are centered around my proficiency with Blender,
-          where I specialize in environment modeling and excel at polymodeling.
-          My expertise in polymodeling enables me to construct complex and
-          intricate models with precision and efficiency. Whether it's designing
-          landscapes or any architectural structures, I am adept at bringing
-          creative visions to life through meticulous and thoughtful 3D
-          modeling. This skill set allows me to contribute significantly to
-          projects that require high-quality and visually compelling 3D assets.
+          where I specialize in environment modelling and excel at
+          polymodelling. My expertise in polymodelling enables me to construct
+          complex and intricate models with precision and efficiency. Whether
+          it's designing landscapes or any architectural structures, I am adept
+          at bringing creative visions to life through meticulous and thoughtful
+          3D modelling.Since I enjoy making more and more 3D models, it grew on
+          me more like a hobby. This skill set allows me to contribute
+          significantly to projects that require high-quality and visually
+          compelling 3D assets.
+        </div>
+      </div>
+      <div className="text-white col-start-2 col-span-10 lg:col-span-5 h-auto bg-zinc-900 p-5 rounded-lg">
+        <div className="font-audio text-lg flex gap-2 justify-center items-center h-full">
+          Learning
+          <div className="flex justify-center items-center bg-red rounded-full h-[28px] w-[28px]">
+            ...
+          </div>
         </div>
       </div>
     </div>
