@@ -94,12 +94,9 @@ function ServicesBody() {
           compelling 3D assets.
         </div>
       </div>
-      <div className="text-white col-start-2 col-span-10 lg:col-span-5 h-auto bg-zinc-900 p-5 rounded-lg">
-        <div className="font-audio text-lg flex gap-2 justify-center items-center h-full">
-          Learning
-          <div className="flex justify-center items-center bg-red rounded-full h-[28px] w-[28px]">
-            ...
-          </div>
+      <div className="text-white col-start-2 col-span-10 lg:col-span-5 h-auto bg-zinc-950 mb-5 p-5 rounded-lg">
+        <div className="font-audio text-lg flex gap-2 justify-center animate-pulse items-center h-full">
+          Learning More...
         </div>
       </div>
     </div>

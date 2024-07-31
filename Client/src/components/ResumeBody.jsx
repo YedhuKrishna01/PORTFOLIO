@@ -44,20 +44,80 @@ function ResumeBody() {
             About me
           </button>
         </div>
-        <div className="mt-10 p-8 h-96 overflow-scroll rounded-md">
+        <div className="mt-1 p-8 h-96 overflow-scroll rounded-md">
+          {/* Experience portion of the resume page */}
+
           {selectedSection === "Experience" && (
             <div>
-              <div className="font-audio text-center text-2xl">Experience</div>
-              <div className="mt-2 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
-                <div className="text-red">02/2024 - Present</div>
+              <div className="font-audio text-center text-lg border-x-2">
+                Experience
+              </div>
+              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+                <div className="text-red">05/2024 - Present</div>
                 <div className="font-bold text-lg">Freelancer</div>
                 <div className="text-center">
-                  Developed an E-commerce platform
+                  <ul className="list-disc list-inside">
+                    <li>E-Commerce Platform</li>
+                    <li>Designed a Blog(Figma)</li>
+                    <li>Designed a site about coding(Figma)</li>
+                  </ul>
                 </div>
+              </div>
+              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+                <div className="text-red">03/2024 - 05/2024</div>
+                <div className="font-bold text-center text-lg">
+                  Full stack Internship(Django)
+                </div>
+                <div className="text-center text-xs">
+                  At Business Web Solutions(BWS)
+                </div>
+              </div>
+              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+                <div className="text-red">08/2023 - 02/2024</div>
+                <div className="font-bold text-center text-lg">
+                  Full Stack Internship(MERN)
+                </div>
+                <div className="text-center text-xs">At Synnefo Solutions</div>
               </div>
             </div>
           )}
-          {selectedSection === "Education" && <div>education</div>}
+
+          {/* Education portion of the resume page */}
+
+          {selectedSection === "Education" && (
+            <div>
+              <div className="font-audio text-center text-lg border-x-2">
+                Education
+              </div>
+              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+                <div className="text-red">05/2024 - Present</div>
+                <div className="font-bold text-lg">Freelancer</div>
+                <div className="text-center">
+                  <ul className="list-disc list-inside">
+                    <li>E-Commerce Platform</li>
+                    <li>Designed a Blog(Figma)</li>
+                    <li>Designed a site about coding(Figma)</li>
+                  </ul>
+                </div>
+              </div>
+              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+                <div className="text-red">03/2024 - 05/2024</div>
+                <div className="font-bold text-center text-lg">
+                  Full stack Internship(Django)
+                </div>
+                <div className="text-center text-xs">
+                  At Business Web Solutions(BWS)
+                </div>
+              </div>
+              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+                <div className="text-red">08/2023 - 02/2024</div>
+                <div className="font-bold text-center text-lg">
+                  Full Stack Internship(MERN)
+                </div>
+                <div className="text-center text-xs">At Synnefo Solutions</div>
+              </div>
+            </div>
+          )}
           {selectedSection === "Skills" && <div>skill</div>}
           {selectedSection === "About me" && <div>about me</div>}
         </div>
