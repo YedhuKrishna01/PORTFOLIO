@@ -2,3 +2,7 @@ button.scale-125 {
     transform: scale(1.25);
     border: 1px solid red;
 }
+
+.overflow-scroll{
+    height: auto;
+}

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function ServicesBody() {
   return (
-    <div className="grid gap-y-10 lg:gap-3 grid-cols-12">
+    <div className="grid resume gap-y-10 lg:gap-3 grid-cols-12">
       <div className="text-white col-start-2 col-span-10 lg:col-span-5 lg:col-start-2 h-auto bg-zinc-950 p-5 rounded-lg">
         <div className="font-audio text-lg flex justify-center">
           Web Development
@@ -94,7 +94,7 @@ function ServicesBody() {
           compelling 3D assets.
         </div>
       </div>
-      <div className="text-white col-start-2 col-span-10 lg:col-span-5 h-auto bg-zinc-950 mb-5 p-5 rounded-lg">
+      <div className="text-white col-start-2 col-span-10 lg:col-span-5 h-auto bg-zinc-950 mb-10 p-5 rounded-lg">
         <div className="font-audio text-lg flex gap-2 justify-center animate-pulse items-center h-full">
           Learning More...
         </div>
