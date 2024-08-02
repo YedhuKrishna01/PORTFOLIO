@@ -30,8 +30,11 @@ function Navbar() {
 
   return (
     <div className="h-24 text-white navbar grid grid-cols-12 pt-10">
-      <Link to="/" className="col-start-2">
-        Yedhu
+      <Link
+        to="/"
+        className="col-start-2 mt-[-20px] text-2xl h-14 w-14 border-2 border-red rounded-full scale-90 shadow"
+      >
+        <div className="flex justify-center items-center w-full h-full">Y!</div>
       </Link>
 
       {/* Below elements only appears in tablets and Computers */}
@@ -65,9 +68,7 @@ function Navbar() {
           <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
         </svg>
       </div>
-
       {/* Making the PopUp Menu */}
-
       <div className="col-start-9 menu " ref={menuRef}>
         <Link to="/" className="OptBtn" ref={optsRef}>
           Home

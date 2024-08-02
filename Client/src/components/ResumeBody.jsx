@@ -125,8 +125,8 @@ function ResumeBody() {
               <div className="font-audio text-center text-lg border-x-2">
                 Skills
               </div>
-              <div className="grid mt-10 grid-cols-2 gap-3">
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+              <div className="grid mt-10 grid-cols-3 gap-4">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -141,9 +141,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">HTML</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -158,9 +158,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">CSS</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -175,9 +175,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">Javascript</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -192,9 +192,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">Bootstrap</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -209,9 +209,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">Tailwind</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -226,9 +226,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">JQuery</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -243,9 +243,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">ReactJs</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -260,9 +260,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">NodeJs</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -277,9 +277,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">ExpressJs</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -294,9 +294,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">MongoDB</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -311,9 +311,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">Blender</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -328,9 +328,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">Figma</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -345,9 +345,9 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">Framer</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-900">
+                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
                   <svg
                     viewBox="0 0 96 96"
                     fill="white"
@@ -362,7 +362,7 @@ function ResumeBody() {
                       <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
                     </g>
                   </svg>
-                  <div className="title">HTML</div>
+                  <div className="text-xs">+</div>
                 </div>
               </div>
             </div>
