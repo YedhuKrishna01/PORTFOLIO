@@ -52,7 +52,7 @@ function ResumeBody() {
               <div className="font-audio text-center text-lg border-x-2">
                 Experience
               </div>
-              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
                 <div className="text-red">05/2024 - Present</div>
                 <div className="font-bold text-lg">Freelancer</div>
                 <div className="text-center">
@@ -63,7 +63,7 @@ function ResumeBody() {
                   </ul>
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
                 <div className="text-red">03/2024 - 05/2024</div>
                 <div className="font-bold text-center text-lg">
                   Full stack Internship(Django)
@@ -72,14 +72,14 @@ function ResumeBody() {
                   At Business Web Solutions(BWS)
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
                 <div className="text-red">01/2024 - 02/2024</div>
                 <div className="font-bold text-center text-lg">
                   Full stack Internship(MERN)
                 </div>
                 <div className="text-center text-xs">At Synnefo Solutions</div>
               </div>
-              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
                 <div className="text-red">12/2021 - 01/2022</div>
                 <div className="font-bold text-center text-lg">
                   Internship in Embedded System & IoT
@@ -99,14 +99,21 @@ function ResumeBody() {
               <div className="font-audio text-center text-lg border-x-2">
                 Education
               </div>
-              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
                 <div className="text-red">08/2023 - 01/2024</div>
                 <div className="font-bold text-center text-lg">
                   Full Stack Web Development(MERN)
                 </div>
                 <div className="text-center">At Synnefo Solutions</div>
               </div>
-              <div className="mt-10 bg-zinc-950 p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
+                <div className="text-red">11/2023 - 01/2024</div>
+                <div className="font-bold text-center text-lg">
+                  Web Development Bootcamp 2024
+                </div>
+                <div className="text-center">At Udemy Online Platform</div>
+              </div>
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
                 <div className="text-red">08/2019 - 07/2023</div>
                 <div className="font-bold text-center text-lg">
                   B.tech in EEE
@@ -114,6 +121,13 @@ function ResumeBody() {
                 <div className="text-center">
                   At Vidya Academy of Science & Technology
                 </div>
+              </div>
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
+                <div className="text-red">04/2021 - 06/2021</div>
+                <div className="font-bold text-center text-lg">
+                  Python For Everybody
+                </div>
+                <div className="text-center">At Coursera Online Platform</div>
               </div>
             </div>
           )}
@@ -125,249 +139,83 @@ function ResumeBody() {
               <div className="font-audio text-center text-lg border-x-2">
                 Skills
               </div>
-              <div className="grid mt-10 grid-cols-3 gap-4">
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">HTML</div>
+              <div className="grid mt-10 grid-cols-2 gap-4">
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">HTML</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">CSS</div>
+                <div className="flex flex-col gap-1 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">CSS</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">Javascript</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">Javascript</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">Bootstrap</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">Bootstrap</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">Tailwind</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">Tailwind</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">JQuery</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">JQuery</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">ReactJs</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">ReactJs</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">NodeJs</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">NodeJs</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">ExpressJs</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">ExpressJs</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">MongoDB</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">MongoDB</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">Blender</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">Blender</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">Figma</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">Figma</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">Framer</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">Framer</div>
                 </div>
-                <div className="flex flex-col gap-3 p-5 rounded-md border items-center bg-zinc-950">
-                  <svg
-                    viewBox="0 0 96 96"
-                    fill="white"
-                    height={30}
-                    width={30}
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <title />
-                    <g>
-                      <path d="M24.8452,25.3957a6.0129,6.0129,0,0,0-8.4487.7617L1.3974,44.1563a5.9844,5.9844,0,0,0,0,7.687L16.3965,69.8422a5.9983,5.9983,0,1,0,9.21-7.687L13.8068,48l11.8-14.1554A6,6,0,0,0,24.8452,25.3957Z" />
-                      <path d="M55.1714,12.1192A6.0558,6.0558,0,0,0,48.1172,16.83L36.1179,76.8262A5.9847,5.9847,0,0,0,40.8286,83.88a5.7059,5.7059,0,0,0,1.1835.1172A5.9949,5.9949,0,0,0,47.8828,79.17L59.8821,19.1735A5.9848,5.9848,0,0,0,55.1714,12.1192Z" />
-                      <path d="M94.6026,44.1563,79.6035,26.1574a5.9983,5.9983,0,1,0-9.21,7.687L82.1932,48l-11.8,14.1554a5.9983,5.9983,0,1,0,9.21,7.687L94.6026,51.8433A5.9844,5.9844,0,0,0,94.6026,44.1563Z" />
-                    </g>
-                  </svg>
-                  <div className="text-xs">+</div>
+                <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-lg font-audio">+</div>
                 </div>
+              </div>
+              <div className="flex flex-col text-md font-semibold justify-center gap-2 items-center p-3 mt-10 rounded-md">
+                <div className="italic">
+                  "Anyone who stops learning is old, whether at twenty or
+                  eighty. Anyone who keeps learning stays young"
+                </div>
+                <div className="w-full flex justify-end">-Henry Ford</div>
               </div>
             </div>
           )}
-          {selectedSection === "About me" && <div>about me</div>}
+          {selectedSection === "About me" && (
+            <div>
+              <div className="font-audio text-center text-lg border-x-2">
+                About me
+              </div>
+              <div className="break-words mt-10">
+                il8lfnrofhrorurufhruwjrnferxsccdcsaceefbtryjrrvfdgtethecdavswrrbtbt4whthgreahethdfggfhytryj
+              </div>
+              <div className="mt-10 rounded-md">
+                <div className="text-gray-400 text-sm">Name:</div>
+                <div className="text-lg font-audio">Yedhukrishna K S</div>
+                <div className="text-gray-400 text-sm">Phone:</div>
+                <div className="text-lg font-audio">(+91)8592803244</div>
+                <div className="text-gray-400 text-sm">Experience</div>
+                <div className="text-lg font-audio">1 Year</div>
+                <div className="text-gray-400 text-sm">Email</div>
+                <div className="text-lg font-audio">
+                  yedhukrishnagk@gmail.com
+                </div>
+                <div className="text-gray-400 text-sm">Nationality</div>
+                <div className="text-lg font-audio">India</div>
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>

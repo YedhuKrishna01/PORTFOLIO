@@ -6,3 +6,15 @@ button.scale-125 {
 .overflow-scroll{
     height: auto;
 }
+
+/* .shadows{
+    box-shadow: red 0px 50px 100px -20px, red 0px 30px 60px -30px, red 0px -2px 6px 0px inset;
+} */
+
+.shadows{
+    box-shadow: red 0px 5px 50px -30px, red 0px 0px 60px -25px, red 0px -2px 6px 0px inset;
+}
+
+.shadowsLg{
+    box-shadow: red 0px 30px 100px -40px, red 0px 10px 60px -60px;
+}

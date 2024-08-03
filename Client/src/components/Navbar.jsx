@@ -34,7 +34,7 @@ function Navbar() {
         to="/"
         className="col-start-2 mt-[-20px] text-2xl h-14 w-14 border-2 border-red rounded-full scale-90 shadow"
       >
-        <div className="flex justify-center items-center w-full h-full">Y!</div>
+        <img src="/favicon.ico" />
       </Link>
 
       {/* Below elements only appears in tablets and Computers */}
