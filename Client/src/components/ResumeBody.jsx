@@ -197,22 +197,48 @@ function ResumeBody() {
               <div className="font-audio text-center text-lg border-x-2">
                 About me
               </div>
-              <div className="break-words mt-10">
-                il8lfnrofhrorurufhruwjrnferxsccdcsaceefbtryjrrvfdgtethecdavswrrbtbt4whthgreahethdfggfhytryj
+              <div className="break-words text-sm mt-10">
+                A curious developer constantly exploring new technologies on the
+                internet, eager to apply my skills to benefit others.
               </div>
-              <div className="mt-10 rounded-md">
-                <div className="text-gray-400 text-sm">Name:</div>
-                <div className="text-lg font-audio">Yedhukrishna K S</div>
-                <div className="text-gray-400 text-sm">Phone:</div>
-                <div className="text-lg font-audio">(+91)8592803244</div>
-                <div className="text-gray-400 text-sm">Experience</div>
-                <div className="text-lg font-audio">1 Year</div>
-                <div className="text-gray-400 text-sm">Email</div>
-                <div className="text-lg font-audio">
+              <div className="mt-10 flex flex-col p-5 shadowsLg  gap-1 break-words rounded-md">
+                <div className="text-gray-500 font-audio text-sm">Name:</div>
+                <div className="text-md font-audio">Yedhukrishna K S</div>
+                <div className="text-gray-500 font-audio text-sm">Phone:</div>
+                <div className="text-md font-audio">(+91)8592803244</div>
+                <div className="text-gray-500 font-audio text-sm">
+                  Experience
+                </div>
+                <div className="text-md font-audio">1 Year</div>
+                <div className="text-gray-500 font-audio text-sm">Email</div>
+                <div className="text-md font-audio">
                   yedhukrishnagk@gmail.com
                 </div>
-                <div className="text-gray-400 text-sm">Nationality</div>
-                <div className="text-lg font-audio">India</div>
+                <div className="text-gray-500 font-audio text-sm">
+                  Nationality
+                </div>
+                <div className="text-md font-audio">India</div>
+                <div className="text-gray-500 font-audio text-sm">
+                  Freelance
+                </div>
+                <div className="text-md font-audio">Available</div>
+                <div className="text-gray-500 font-audio text-sm">
+                  Languages
+                </div>
+                <div className="text-md font-audio">
+                  English, Malayalam, Hindi, Tamil
+                </div>
+                <div className="text-gray-500 font-audio text-sm">
+                  Interests
+                </div>
+                <div className="text-md font-audio">Coding, Designing</div>
+                <div className="text-gray-500 font-audio text-sm">Hobbies</div>
+                <div className="text-md font-audio">
+                  Music, Reading, Gaming, TV
+                </div>
+              </div>
+              <div className="grid grid-cols-3 mt-11">
+                <img className="col-start-2 rounded-full" src="/music.jpg" />
               </div>
             </div>
           )}
