@@ -4,7 +4,7 @@ import { RxDotFilled } from "react-icons/rx";
 
 function WorksDesigns() {
   const slides = [
-    { url: "./codeit.jpeg" },
+    { url: "./codeit.jpg" },
     { url: "./knowit.jpeg" },
     { url: "./blog.jpeg" },
   ];
