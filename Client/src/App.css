@@ -6,3 +6,10 @@ html,body{
     margin: 0;
     box-sizing: border-box;
 }
+
+@media screen and (min-width:700px){
+    .notMobile{
+        font-size: small;
+        text-align: center;
+    }
+}

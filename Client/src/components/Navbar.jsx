@@ -39,19 +39,19 @@ function Navbar() {
 
       {/* Below elements only appears in tablets and Computers */}
 
-      <Link to="/" className="col-start-7 notMobile">
+      <Link to="/" className="col-start-7 notMobile tablet:text-lg">
         Home
       </Link>
-      <Link to="/Services" className="notMobile">
+      <Link to="/Services" className="notMobile tablet:text-lg">
         Services
       </Link>
-      <Link to="/Resume" className="notMobile">
+      <Link to="/Resume" className="notMobile tablet:text-lg">
         Resume
       </Link>
-      <Link to="/MyWorks" className="notMobile">
+      <Link to="/MyWorks" className="notMobile tablet:text-lg">
         Works
       </Link>
-      <Link to="/Contact" className="notMobile">
+      <Link to="/Contact" className="notMobile tablet:text-lg">
         Contact
       </Link>
 

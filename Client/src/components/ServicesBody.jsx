@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 
 function ServicesBody() {
   return (
-    <div className="grid resume gap-y-10 lg:gap-3 grid-cols-12">
-      <div className="text-white col-start-2 col-span-10 lg:col-span-5 lg:col-start-2 h-auto bg-zinc-950 p-5 rounded-lg">
-        <div className="font-audio text-lg flex justify-center">
+    <div className="grid resume gap-y-10 tablet:gap-16 grid-cols-12">
+      <div className="text-white col-start-2 col-span-10 lg:col-span-5 lg:col-start-2 h-auto tablet:mt-7 bg-zinc-950 p-5 rounded-lg">
+        <div className="font-audio text-lg tablet:text-3xl flex justify-center">
           Web Development
           <Link
             to="/MyWorks"
-            className="rounded-full flex justify-center items-center ml-2 bg-red w-7 h-7"
+            className="rounded-full flex justify-center items-center ml-2 tablet:ml-4 tablet:mt-1 tablet:scale-125 bg-red w-7 h-7"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ function ServicesBody() {
             </svg>
           </Link>
         </div>
-        <div className="text-xs text-justify mt-1">
+        <div className="text-xs tablet:text-lg text-justify mt-1">
           My expertise in ReactJS allows me to build dynamic and efficient
           single-page applications, while my knowledge of NodeJS and ExpressJS
           equips me to develop robust backend services. I am proficient in using
@@ -35,11 +35,11 @@ function ServicesBody() {
         </div>
       </div>
       <div className="text-white col-start-2 col-span-10 lg:col-span-5 h-auto bg-zinc-950 p-5 rounded-lg">
-        <div className="font-audio text-lg flex justify-center">
+        <div className="font-audio text-lg tablet:text-3xl flex justify-center">
           UI Designing
           <Link
             to="/MyWorks"
-            className="rounded-full flex justify-center items-center ml-2 bg-red w-7 h-7"
+            className="rounded-full flex justify-center items-center ml-2 tablet:ml-4 tablet:mt-1 tablet:scale-125 bg-red w-7 h-7"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +52,7 @@ function ServicesBody() {
             </svg>
           </Link>
         </div>
-        <div className="text-xs text-justify mt-1">
+        <div className="text-xs tablet:text-lg text-justify mt-1">
           With the help of tools like Figma and my strong foundation in HTML and
           CSS I am able to craft intuitive and aesthetically pleasing
           interfaces. I use design frameworks such as Bootstrap and Tailwind CSS
@@ -64,11 +64,11 @@ function ServicesBody() {
         </div>
       </div>
       <div className="text-white col-start-2 col-span-10 lg:col-span-5 lg:col-start-2 h-auto bg-zinc-950 p-5 rounded-lg">
-        <div className="font-audio text-lg flex justify-center">
+        <div className="font-audio text-lg tablet:text-3xl flex justify-center">
           3D-Modelling
           <Link
             to="/MyWorks"
-            className="rounded-full flex justify-center items-center ml-2 bg-red w-7 h-7"
+            className="rounded-full flex justify-center items-center ml-2 tablet:ml-4 tablet:mt-1 tablet:scale-125 bg-red w-7 h-7"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ function ServicesBody() {
             </svg>
           </Link>
         </div>
-        <div className="text-xs text-justify mt-1">
+        <div className="text-xs tablet:text-lg text-justify mt-1">
           My 3D modeling skills are centered around my proficiency with Blender,
           where I specialize in environment modelling and excel at
           polymodelling. My expertise in polymodelling enables me to construct
@@ -94,8 +94,8 @@ function ServicesBody() {
           compelling 3D assets.
         </div>
       </div>
-      <div className="text-white col-start-2 col-span-10 lg:col-span-5 h-auto bg-zinc-950 mb-10 p-5 rounded-lg">
-        <div className="font-audio text-lg flex gap-2 justify-center animate-pulse items-center h-full">
+      <div className="text-white col-start-2 col-span-10 lg:col-span-5 h-auto bg-zinc-950 mb-10 p-5 tablet:p-9 rounded-lg">
+        <div className="font-audio text-lg tablet:text-3xl flex gap-2 justify-center animate-pulse items-center h-full">
           Learning More...
         </div>
       </div>
