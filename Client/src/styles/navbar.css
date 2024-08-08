@@ -35,7 +35,7 @@
     padding: 1vh 2vh;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
     .notMobile{
         display: none;
     }
@@ -46,3 +46,8 @@
         display: flex;
     }
   }
+@media screen and (min-width: 700px) {
+   .options{
+    transform: translateX(16vw);
+   }
+}

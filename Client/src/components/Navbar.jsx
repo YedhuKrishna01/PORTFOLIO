@@ -29,35 +29,39 @@ function Navbar() {
   }
 
   return (
-    <div className="h-24 text-white navbar grid grid-cols-12 pt-10">
+    <div className="h-24 tablet:h-32 laptop:h-44 text-white navbar grid grid-cols-12 pt-10">
       <Link
         to="/"
-        className="col-start-2 mt-[-20px] text-2xl h-14 w-14 border-2 border-red rounded-full scale-90 shadow"
+        className="col-start-2 mt-[-20px] tablet:mt-2 laptop:mt-3 tablet:ml-5 laptop:ml-10 text-2xl h-14 w-14 border-2 border-red tablet:scale-105 laptop:scale-150 desktop:scale-125 desktop:ml-7 desktop:mt-3 rounded-full scale-90 shadow"
       >
         <img src="/favicon.ico" />
       </Link>
 
-      {/* Below elements only appears in tablets and Computers */}
+      {/* Below elements only appears in Computers */}
 
-      <Link to="/" className="col-start-7 notMobile tablet:text-lg">
+      <Link to="/" className="col-start-7 text-lg font-medium mt-8 notMobile">
         Home
       </Link>
-      <Link to="/Services" className="notMobile tablet:text-lg">
+      <Link to="/Services" className="notMobile text-lg mt-8 font-medium">
         Services
       </Link>
-      <Link to="/Resume" className="notMobile tablet:text-lg">
+      <Link to="/Resume" className="notMobile text-lg mt-8 font-medium">
         Resume
       </Link>
-      <Link to="/MyWorks" className="notMobile tablet:text-lg">
+      <Link to="/MyWorks" className="notMobile text-lg mt-8 font-medium">
         Works
       </Link>
-      <Link to="/Contact" className="notMobile tablet:text-lg">
+      <Link to="/Contact" className="notMobile text-lg mt-8 font-medium">
         Contact
       </Link>
 
-      {/* The Hamburger Menu which is only shown in mobile devices */}
+      {/* The Hamburger Menu which is only shown in mobile and tablet devices */}
 
-      <div className="col-start-11 onlyMobile" ref={menuRef} onClick={menubar}>
+      <div
+        className="col-start-11 tablet:mt-6 laptop:mt-14 onlyMobile tablet:scale-110 laptop:scale-150"
+        ref={menuRef}
+        onClick={menubar}
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           height="30px"
@@ -69,7 +73,10 @@ function Navbar() {
         </svg>
       </div>
       {/* Making the PopUp Menu */}
-      <div className="col-start-9 menu " ref={menuRef}>
+      <div
+        className="col-start-9 menu tablet:w-[23vw] laptop:text-2xl"
+        ref={menuRef}
+      >
         <Link to="/" className="OptBtn" ref={optsRef}>
           Home
         </Link>
@@ -85,7 +92,11 @@ function Navbar() {
         <Link to="/Contact" className="OptBtn">
           Contact
         </Link>
-        <div className="OptBtn" style={{ border: "none" }} onClick={closeMenu}>
+        <div
+          className="OptBtn laptop:scale-150"
+          style={{ border: "none" }}
+          onClick={closeMenu}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             height="24px"

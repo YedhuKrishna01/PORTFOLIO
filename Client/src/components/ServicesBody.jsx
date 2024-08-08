@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function ServicesBody() {
   return (
-    <div className="grid resume gap-y-10 tablet:gap-16 grid-cols-12">
-      <div className="text-white col-start-2 col-span-10 lg:col-span-5 lg:col-start-2 h-auto tablet:mt-7 bg-zinc-950 p-5 rounded-lg">
+    <div className="grid gap-y-10 tablet:gap-16 grid-cols-12">
+      <div className="text-white col-start-2 col-span-10 laptop:col-span-5 laptop:col-start-2  h-auto tablet:mt-7 bg-zinc-950 p-5 rounded-lg">
         <div className="font-audio text-lg tablet:text-3xl flex justify-center">
           Web Development
           <Link
@@ -21,7 +21,7 @@ function ServicesBody() {
             </svg>
           </Link>
         </div>
-        <div className="text-xs tablet:text-lg text-justify mt-1">
+        <div className="text-xs tablet:text-lg laptop:text-base text-justify mt-1 laptop:mt-3">
           My expertise in ReactJS allows me to build dynamic and efficient
           single-page applications, while my knowledge of NodeJS and ExpressJS
           equips me to develop robust backend services. I am proficient in using
@@ -34,7 +34,7 @@ function ServicesBody() {
           user-friendly.
         </div>
       </div>
-      <div className="text-white col-start-2 col-span-10 lg:col-span-5 h-auto bg-zinc-950 p-5 rounded-lg">
+      <div className="text-white col-start-2 col-span-10 laptop:col-span-5 h-auto bg-zinc-950 p-5 rounded-lg">
         <div className="font-audio text-lg tablet:text-3xl flex justify-center">
           UI Designing
           <Link
@@ -52,7 +52,7 @@ function ServicesBody() {
             </svg>
           </Link>
         </div>
-        <div className="text-xs tablet:text-lg text-justify mt-1">
+        <div className="text-xs tablet:text-lg laptop:text-base text-justify mt-1">
           With the help of tools like Figma and my strong foundation in HTML and
           CSS I am able to craft intuitive and aesthetically pleasing
           interfaces. I use design frameworks such as Bootstrap and Tailwind CSS
