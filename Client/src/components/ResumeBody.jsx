@@ -5,15 +5,15 @@ function ResumeBody() {
   const [selectedSection, setSelectedSection] = useState("Experience");
 
   return (
-    <div className="text-white grid grid-cols-12">
+    <div className="text-white tablet:mt-8 grid grid-cols-12">
       <div className="col-span-10 col-start-2">
-        <div className="font-audio text-lg flex justify-center">
+        <div className="font-audio text-lg tablet:text-3xl flex justify-center">
           Why hire me?
         </div>
-        <div className="col-span-10 flex flex-col mt-5 rounded-md items-center gap-2 text-center py-5 col-start-2">
+        <div className="col-span-10 flex flex-col mt-5 rounded-md items-center gap-2 tablet:gap-5 text-center py-5 col-start-2">
           <button
             onClick={() => setSelectedSection("Experience")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 ${
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 ${
               selectedSection === "Experience" ? "scale-125 border-red" : ""
             }`}
           >
@@ -21,7 +21,7 @@ function ResumeBody() {
           </button>
           <button
             onClick={() => setSelectedSection("Education")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 ${
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 ${
               selectedSection === "Education" ? "scale-125 border-red" : ""
             }`}
           >
@@ -29,7 +29,7 @@ function ResumeBody() {
           </button>
           <button
             onClick={() => setSelectedSection("Skills")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 ${
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 ${
               selectedSection === "Skills" ? "scale-125 border-red" : ""
             }`}
           >
@@ -37,7 +37,7 @@ function ResumeBody() {
           </button>
           <button
             onClick={() => setSelectedSection("About me")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 ${
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 ${
               selectedSection === "About me" ? "scale-125 border-red" : ""
             }`}
           >
@@ -48,43 +48,47 @@ function ResumeBody() {
           {/* Experience portion of the resume page */}
 
           {selectedSection === "Experience" && (
-            <div>
-              <div className="font-audio text-center text-lg border-x-2">
+            <div className="tablet:flex tablet:flex-col tablet:items-center">
+              <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full border-x-2">
                 Experience
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 items-center">
                 <div className="text-red">05/2024 - Present</div>
-                <div className="font-bold text-lg">Freelancer</div>
-                <div className="text-center">
-                  <ul className="list-disc text-xs list-inside">
+                <div className="font-bold text-lg tablet:text-2xl">
+                  Freelancer
+                </div>
+                <div>
+                  <ul className="list-disc text-xs tablet:text-base list-inside">
                     <li>E-Commerce Platform</li>
-                    <li>Designed a Blog(Figma)</li>
-                    <li>Designed a site about coding(Figma)</li>
+                    <li>Designed a Blog</li>
+                    <li>Designed a coding site</li>
                   </ul>
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 items-center">
                 <div className="text-red">03/2024 - 05/2024</div>
-                <div className="font-bold text-center text-lg">
+                <div className="font-bold text-center text-lg tablet:text-2xl">
                   Full stack Internship(Django)
                 </div>
-                <div className="text-center text-xs">
+                <div className="text-center text-xs tablet:text-base">
                   At Business Web Solutions(BWS)
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 items-center">
                 <div className="text-red">01/2024 - 02/2024</div>
-                <div className="font-bold text-center text-lg">
+                <div className="font-bold text-center text-lg tablet:text-2xl">
                   Full stack Internship(MERN)
                 </div>
-                <div className="text-center text-xs">At Synnefo Solutions</div>
+                <div className="text-center text-xs tablet:text-base">
+                  At Synnefo Solutions
+                </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 items-center">
                 <div className="text-red">12/2021 - 01/2022</div>
-                <div className="font-bold text-center text-lg">
+                <div className="font-bold text-center text-lg tablet:text-2xl">
                   Internship in Embedded System & IoT
                 </div>
-                <div className="text-center text-xs">
+                <div className="text-center text-xs tablet:text-base">
                   At Centre for Skill Enhancement & Employability
                   Development(CSEED){" "}
                 </div>
@@ -95,39 +99,45 @@ function ResumeBody() {
           {/* Education portion of the resume page */}
 
           {selectedSection === "Education" && (
-            <div>
-              <div className="font-audio text-center text-lg border-x-2">
+            <div className="tablet:flex tablet:flex-col tablet:items-center">
+              <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full border-x-2">
                 Education
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 items-center">
                 <div className="text-red">08/2023 - 01/2024</div>
-                <div className="font-bold text-center text-lg">
+                <div className="font-bold text-center tablet:text-2xl text-lg">
                   Full Stack Web Development(MERN)
                 </div>
-                <div className="text-center">At Synnefo Solutions</div>
+                <div className="text-center text-xs tablet:text-base">
+                  At Synnefo Solutions
+                </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 items-center">
                 <div className="text-red">11/2023 - 01/2024</div>
-                <div className="font-bold text-center text-lg">
+                <div className="font-bold text-center tablet:text-2xl text-lg">
                   Web Development Bootcamp 2024
                 </div>
-                <div className="text-center">At Udemy Online Platform</div>
+                <div className="text-center text-xs tablet:text-base">
+                  At Udemy Online Platform
+                </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 items-center">
                 <div className="text-red">08/2019 - 07/2023</div>
-                <div className="font-bold text-center text-lg">
+                <div className="font-bold text-center tablet:text-2xl text-lg">
                   B.tech in EEE
                 </div>
-                <div className="text-center">
+                <div className="text-center text-xs tablet:text-base">
                   At Vidya Academy of Science & Technology
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 items-center">
                 <div className="text-red">04/2021 - 06/2021</div>
-                <div className="font-bold text-center text-lg">
-                  Python For Everybody
+                <div className="font-bold text-center tablet:text-2xl text-lg">
+                  Python For Everybody(Basics)
                 </div>
-                <div className="text-center">At Coursera Online Platform</div>
+                <div className="text-center text-xs tablet:text-base">
+                  At Coursera Online Platform
+                </div>
               </div>
             </div>
           )}
@@ -135,11 +145,11 @@ function ResumeBody() {
           {/* Skill portion of the resume page */}
 
           {selectedSection === "Skills" && (
-            <div>
-              <div className="font-audio text-center text-lg border-x-2">
+            <div className="tablet:flex tablet:flex-col tablet:items-center">
+              <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full border-x-2">
                 Skills
               </div>
-              <div className="grid mt-10 grid-cols-2 gap-4">
+              <div className="grid mt-10 grid-cols-2 tablet:grid-cols-3 gap-4">
                 <div className="flex flex-col gap-3 p-5 rounded-md shadows items-center bg-zinc-950">
                   <div className="text-lg font-audio">HTML</div>
                 </div>
@@ -183,7 +193,7 @@ function ResumeBody() {
                   <div className="text-lg font-audio">+</div>
                 </div>
               </div>
-              <div className="flex flex-col text-md font-semibold justify-center gap-2 items-center p-3 mt-10 rounded-md">
+              <div className="flex flex-col tablet:text-xl tablet:w-5/6 tablet:text-justify font-semibold justify-center gap-2 items-center p-3 mt-10 rounded-md">
                 <div className="italic">
                   "Anyone who stops learning is old, whether at twenty or
                   eighty. Anyone who keeps learning stays young"

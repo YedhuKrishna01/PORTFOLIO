@@ -39,7 +39,10 @@ function Navbar() {
 
       {/* Below elements only appears in Computers */}
 
-      <Link to="/" className="col-start-7 text-lg font-medium mt-8 notMobile">
+      <Link
+        to="/"
+        className="col-start-7 text-xl font-semibold text-zinc-500 mt-8 notMobile"
+      >
         Home
       </Link>
       <Link to="/Services" className="notMobile text-lg mt-8 font-medium">

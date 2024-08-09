@@ -34,7 +34,7 @@ function ServicesBody() {
           user-friendly.
         </div>
       </div>
-      <div className="text-white col-start-2 col-span-10 laptop:col-span-5 h-auto bg-zinc-950 p-5 rounded-lg">
+      <div className="text-white col-start-2 col-span-10 laptop:col-span-5 h-auto bg-zinc-950 p-5 rounded-lg laptop:mt-7">
         <div className="font-audio text-lg tablet:text-3xl flex justify-center">
           UI Designing
           <Link
