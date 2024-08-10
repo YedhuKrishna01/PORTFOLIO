@@ -61,7 +61,7 @@ function Navbar() {
       {/* The Hamburger Menu which is only shown in mobile and tablet devices */}
 
       <div
-        className="col-start-11 tablet:mt-6 laptop:mt-14 onlyMobile tablet:scale-110 laptop:scale-150"
+        className="col-start-11 tablet:mt-6 laptop:mt-10 onlyMobile tablet:scale-110 laptop:scale-150"
         ref={menuRef}
         onClick={menubar}
       >

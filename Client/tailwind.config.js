@@ -12,7 +12,7 @@ export default {
     screens: {
       'tablet': '700px',
       'laptop': '1024px',
-      'desktop': '1280px',
+      'desktop': '1300px',
     },
     extend:{
       colors:{

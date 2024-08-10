@@ -43,53 +43,63 @@ function ContactsBody() {
 
   return (
     <div className="grid outer grid-cols-12">
-      <div className="col-start-2 col-span-10 flex flex-col justify-center items-center h-full text-center font-audio text-white mt-5">
-        <div className="shadows rounded-md p-2">
-          Would you like to contact/hire me?
-        </div>
-        <section className="flex shadowsLg mt-10 rounded-md w-full lg:w-3/5 h-auto p-7">
+      <div className="col-start-2 col-span-10 flex flex-col justify-center items-center h-full text-center font-audio tablet:text-3xl laptop:text-4xl text-white mt-5">
+        <div>Would you like to contact/hire me?</div>
+        <section className="flex shadowsLg mt-10 rounded-md w-full tablet:w-5/6 laptop:p-14 tablet:mt-14 h-auto p-7">
           <form
             onSubmit={onSubmit}
-            className="flex flex-col text-left space-y-2 w-full"
+            className="flex flex-col text-left space-y-2 tablet:space-y-6 w-full"
           >
-            <div className="">
-              <label htmlFor="name">Name</label>
+            <div>
+              <label className="tablet:text-2xl laptop:text-3xl" htmlFor="name">
+                Name
+              </label>
               <br />
               <input
                 type="text"
                 id="name"
                 name="name"
-                className="p-2 rounded-md mt-1 bg-zinc-900 font-mont text-sm placeholder:pl-1 placeholder:text-sm placeholder:font-mont w-full"
+                className="p-2 rounded-md mt-1 bg-zinc-900 font-mont text-sm tablet:text-xl laptop:text-2xl placeholder:pl-1 placeholder:text-sm placeholder:font-mont tablet:placeholder:text-lg laptop:placeholder:text-2xl tablet:mt-3 laptop:mt-5 w-full"
                 placeholder="Enter your name"
                 required
               />
             </div>
-            <div className="input-box">
-              <label htmlFor="email">Email</label>
+            <div>
+              <label
+                className="tablet:text-2xl laptop:text-3xl"
+                htmlFor="email"
+              >
+                Email
+              </label>
               <br />
               <input
                 type="email"
                 id="email"
                 name="email"
-                className="p-2 rounded-md mt-1  bg-zinc-900 font-mont text-sm placeholder:pl-1 placeholder:text-sm placeholder:font-mont w-full"
+                className="p-2 rounded-md mt-1  bg-zinc-900 font-mont text-sm tablet:text-xl laptop:text-2xl placeholder:pl-1 placeholder:text-sm placeholder:font-mont tablet:placeholder:text-lg laptop:placeholder:text-2xl tablet:mt-3 laptop:mt-5 w-full"
                 placeholder="Enter your email"
                 required
               />
             </div>
-            <div className="input-box">
-              <label htmlFor="message">Write your message</label>
+            <div>
+              <label
+                className="tablet:text-2xl laptop:text-3xl"
+                htmlFor="message"
+              >
+                Write your message
+              </label>
               <br />
               <textarea
                 id="message"
                 name="message"
-                className="p-2 rounded-md mt-1 h-[30vh] resize-none bg-zinc-900 text-sm font-mont placeholder:pl-1 placeholder:text-sm placeholder:font-mont w-full"
+                className="p-2 rounded-md mt-1 h-[30vh] resize-none bg-zinc-900 text-sm tablet:text-xl laptop:text-2xl font-mont placeholder:pl-1 placeholder:text-sm placeholder:font-mont tablet:placeholder:text-lg laptop:placeholder:text-2xl tablet:mt-3 laptop:mt-5 w-full"
                 placeholder="Enter your message"
                 required
               ></textarea>
               <br />
               <button
                 type="submit"
-                className="mt-5 cursor-pointer w-full bg-red text-white rounded-md  py-2 px-4"
+                className="mt-5 cursor-pointer tablet:text-2xl w-full bg-red text-white rounded-md  py-2 px-4"
               >
                 Send
               </button>
