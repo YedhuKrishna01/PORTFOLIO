@@ -10,10 +10,10 @@ function ResumeBody() {
         <div className="font-audio text-lg tablet:text-3xl laptop:text-4xl flex justify-center">
           Why hire me?
         </div>
-        <div className="col-span-10 flex flex-col mt-5 rounded-md items-center gap-2 tablet:gap-5 text-center py-5 col-start-2">
+        <div className="col-span-10 flex flex-col mt-5 rounded-md items-center gap-2 tablet:gap-5 desktop:mt-10 text-center py-5 col-start-2">
           <button
             onClick={() => setSelectedSection("Experience")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 ${
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 desktop:w-2/6 ${
               selectedSection === "Experience" ? "scale-125 border-red" : ""
             }`}
           >
@@ -21,7 +21,7 @@ function ResumeBody() {
           </button>
           <button
             onClick={() => setSelectedSection("Education")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 ${
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 desktop:w-2/6 ${
               selectedSection === "Education" ? "scale-125 border-red" : ""
             }`}
           >
@@ -29,7 +29,7 @@ function ResumeBody() {
           </button>
           <button
             onClick={() => setSelectedSection("Skills")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 ${
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 desktop:w-2/6 ${
               selectedSection === "Skills" ? "scale-125 border-red" : ""
             }`}
           >
@@ -37,7 +37,7 @@ function ResumeBody() {
           </button>
           <button
             onClick={() => setSelectedSection("About me")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 ${
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 desktop:w-2/6 ${
               selectedSection === "About me" ? "scale-125 border-red" : ""
             }`}
           >
@@ -52,7 +52,7 @@ function ResumeBody() {
               <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl border-x-2">
                 Experience
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 laptop:p-7 laptop:mt-14 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 laptop:mt-14 items-center">
                 <div className="text-red laptop:text-lg">05/2024 - Present</div>
                 <div className="font-bold text-lg tablet:text-2xl laptop:text-3xl">
                   Freelancer
@@ -65,7 +65,7 @@ function ResumeBody() {
                   </ul>
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 laptop:p-7 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
                 <div className="text-red laptop:text-lg">03/2024 - 05/2024</div>
                 <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl">
                   Full stack Internship(Django)
@@ -74,7 +74,7 @@ function ResumeBody() {
                   At Business Web Solutions(BWS)
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 laptop:p-7 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
                 <div className="text-red laptop:text-lg">01/2024 - 02/2024</div>
                 <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl">
                   Full stack Internship(MERN)
@@ -83,7 +83,7 @@ function ResumeBody() {
                   At Synnefo Solutions
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 laptop:p-7 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
                 <div className="text-red laptop:text-lg">12/2021 - 01/2022</div>
                 <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl">
                   Internship in Embedded System & IoT
@@ -103,7 +103,7 @@ function ResumeBody() {
               <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl border-x-2">
                 Education
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 laptop:p-7 laptop:mt-14 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 laptop:mt-14 items-center">
                 <div className="text-red laptop:text-lg">08/2023 - 01/2024</div>
                 <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl">
                   Full Stack Web Development(MERN)
@@ -112,7 +112,7 @@ function ResumeBody() {
                   At Synnefo Solutions
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 laptop:p-7 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
                 <div className="text-red laptop:text-lg">11/2023 - 01/2024</div>
                 <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl">
                   Web Development Bootcamp 2024
@@ -121,7 +121,7 @@ function ResumeBody() {
                   At Udemy Online Platform
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 laptop:p-7 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
                 <div className="text-red laptop:text-lg">08/2019 - 07/2023</div>
                 <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl">
                   B.tech in EEE
@@ -130,7 +130,7 @@ function ResumeBody() {
                   At Vidya Academy of Science & Technology
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 laptop:p-7 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
                 <div className="text-red laptop:text-lg">04/2021 - 06/2021</div>
                 <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl">
                   Python For Everybody(Basics)
@@ -231,7 +231,7 @@ function ResumeBody() {
               <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl border-x-2">
                 About me
               </div>
-              <div className="break-words text-sm tablet:text-lg laptop:text-2xl text-center mt-10 tablet:mt-14">
+              <div className="break-words text-sm tablet:text-lg laptop:text-2xl desktop:text-2xl desktop:w-8/12 text-center mt-10 tablet:mt-14">
                 A curious developer constantly exploring new technologies on the
                 internet, eager to apply my skills to benefit others.
               </div>

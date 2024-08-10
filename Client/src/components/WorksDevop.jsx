@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
+import { Link } from "react-router-dom";
 
 function WorksDevop() {
-  const slides = [{ url: "./upscale4.webp" }];
+  const slides = [{ url: "./dev1.jpeg" }];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -26,7 +27,10 @@ function WorksDevop() {
       <div className="text-white col-start-2 col-span-10 text-lg tablet:text-3xl laptop:text-4xl tablet:pl-4 font-audio">
         Development Projects
       </div>
-      <div className="col-start-2 col-span-10 w-full h-auto tablet:mt-3 py-4 px-1 relative">
+      <Link
+        to="/"
+        className="col-start-2 col-span-10 w-full h-auto tablet:mt-3 border-2 rounded-lg desktop:mt-5 py-4 px-1 relative"
+      >
         <img
           className="w-full h-40 tablet:h-80 laptop:h-[500px] desktop:h-[660px] slide rounded-lg laptop:rounded-2xl duration-500"
           src={`${slides[currentIndex].url}`}
@@ -41,7 +45,7 @@ function WorksDevop() {
           size={30}
           className="absolute top-[45%] right-5 text-2xl tablet:scale-150 rounded-full p-2 text-gray-400 cursor-pointer"
         />
-      </div>
+      </Link>
       <div className="col-start-2 col-span-10 flex m-5 justify-center">
         {slides.map((_, slideIndex) => (
           <RxDotFilled

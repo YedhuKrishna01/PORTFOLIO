@@ -41,20 +41,32 @@ function Navbar() {
 
       <Link
         to="/"
-        className="col-start-7 text-xl font-semibold text-zinc-500 mt-8 notMobile"
+        className="col-start-7 text-xl hover:text-zinc-400 font-semibold mt-8 notMobile"
       >
         Home
       </Link>
-      <Link to="/Services" className="notMobile text-lg mt-8 font-medium">
+      <Link
+        to="/Services"
+        className="notMobile text-xl hover:text-zinc-400 font-semibold mt-8"
+      >
         Services
       </Link>
-      <Link to="/Resume" className="notMobile text-lg mt-8 font-medium">
+      <Link
+        to="/Resume"
+        className="notMobile text-xl hover:text-zinc-400 font-semibold mt-8"
+      >
         Resume
       </Link>
-      <Link to="/MyWorks" className="notMobile text-lg mt-8 font-medium">
+      <Link
+        to="/MyWorks"
+        className="notMobile text-xl hover:text-zinc-400 font-semibold mt-8"
+      >
         Works
       </Link>
-      <Link to="/Contact" className="notMobile text-lg mt-8 font-medium">
+      <Link
+        to="/Contact"
+        className="notMobile text-xl hover:text-zinc-400 font-semibold mt-8"
+      >
         Contact
       </Link>
 

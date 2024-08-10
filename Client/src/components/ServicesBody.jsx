@@ -8,7 +8,7 @@ function ServicesBody() {
           Web Development
           <Link
             to="/MyWorks"
-            className="rounded-full flex justify-center items-center ml-2 tablet:ml-4 tablet:mt-1 tablet:scale-125 bg-red w-7 h-7"
+            className="rounded-full hover:scale-110 flex justify-center items-center ml-2 tablet:ml-4 tablet:mt-1 tablet:scale-125 bg-red w-7 h-7"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -39,7 +39,7 @@ function ServicesBody() {
           UI Designing
           <Link
             to="/MyWorks"
-            className="rounded-full flex justify-center items-center ml-2 tablet:ml-4 tablet:mt-1 tablet:scale-125 bg-red w-7 h-7"
+            className="rounded-full flex hover:scale-110 justify-center items-center ml-2 tablet:ml-4 tablet:mt-1 tablet:scale-125 bg-red w-7 h-7"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +68,7 @@ function ServicesBody() {
           3D-Modelling
           <Link
             to="/MyWorks"
-            className="rounded-full flex justify-center items-center ml-2 tablet:ml-4 tablet:mt-1 tablet:scale-125 bg-red w-7 h-7"
+            className="rounded-full flex hover:scale-110 justify-center items-center ml-2 tablet:ml-4 tablet:mt-1 tablet:scale-125 bg-red w-7 h-7"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

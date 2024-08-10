@@ -11,7 +11,7 @@ function HomeBody() {
         </div>
         <Link
           to="/MyWorks"
-          className="font-audio text-sm tablet:text-2xl laptop:text-xl rounded-lg px-4 py-2 tablet:px-6 tablet:py-3"
+          className="font-audio text-sm tablet:text-2xl laptop:text-xl hover:bg-red rounded-lg px-4 py-2 tablet:px-6 tablet:py-3"
           style={{ border: "2px solid red" }}
         >
           Explore
