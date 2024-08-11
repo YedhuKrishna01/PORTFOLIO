@@ -45,7 +45,7 @@ function ContactsBody() {
     <div className="grid outer grid-cols-12">
       <div className="col-start-2 col-span-10 flex flex-col justify-center items-center h-full text-center font-audio tablet:text-3xl laptop:text-4xl text-white mt-5">
         <div>Would you like to contact/hire me?</div>
-        <section className="flex shadowsLg mt-10 rounded-md w-full tablet:w-5/6 laptop:w-8/12 desktop:w-6/12 laptop:p-14 tablet:mt-14 h-auto p-7">
+        <section className="flex shadowsLg mb-10 mt-10 rounded-md w-full tablet:w-5/6 laptop:w-8/12 desktop:w-6/12 laptop:p-14 tablet:mt-14 h-auto p-7">
           <form
             onSubmit={onSubmit}
             className="flex flex-col text-left space-y-2 tablet:space-y-6 desktop:space-y-3 w-full"

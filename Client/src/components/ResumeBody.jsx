@@ -150,69 +150,75 @@ function ResumeBody() {
                 Skills
               </div>
               <div className="grid mt-10 grid-cols-2 tablet:grid-cols-3 laptop:mt-14 gap-4">
-                <div className="flex flex-col p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">HTML</div>
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
+                    HTML
+                  </div>
                 </div>
-                <div className="flex flex-col p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">CSS</div>
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
+                    CSS
+                  </div>
                 </div>
-                <div className="flex flex-col p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Javascript
                   </div>
                 </div>
-                <div className="flex flex-col p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Bootstrap
                   </div>
                 </div>
-                <div className="flex flex-col p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Tailwind
                   </div>
                 </div>
-                <div className="flex flex-col p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     JQuery
                   </div>
                 </div>
-                <div className="flex flex-col p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     ReactJs
                   </div>
                 </div>
-                <div className="flex flex-col p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     NodeJs
                   </div>
                 </div>
-                <div className="flex flex-col p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     ExpressJs
                   </div>
                 </div>
-                <div className="flex flex-col p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     MongoDB
                   </div>
                 </div>
-                <div className="flex flex-col p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Blender
                   </div>
                 </div>
-                <div className="flex flex-col p-5 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">
+                <div className="flex flex-col justify-center p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Figma
                   </div>
                 </div>
-                <div className="flex flex-col p-5 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">
+                <div className="flex flex-col justify-center p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Framer
                   </div>
                 </div>
-                <div className="flex flex-col p-5 rounded-md shadows items-center bg-zinc-950">
-                  <div className="text-lg laptop:text-2xl font-audio">+</div>
+                <div className="flex flex-col justify-center p-5 rounded-md shadows items-center bg-zinc-950">
+                  <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
+                    +
+                  </div>
                 </div>
               </div>
               <div className="flex flex-col tablet:text-xl tablet:w-5/6 laptop:w-4/6 laptop:mt-14 laptop:text-2xl laptop:gap-4 justify-center gap-2 items-center p-3 mt-10 rounded-md">

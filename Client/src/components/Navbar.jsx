@@ -88,39 +88,41 @@ function Navbar() {
         </svg>
       </div>
       {/* Making the PopUp Menu */}
-      <div
-        className="col-start-9 menu tablet:w-[23vw] laptop:text-2xl"
-        ref={menuRef}
-      >
-        <Link to="/" className="OptBtn" ref={optsRef}>
-          Home
-        </Link>
-        <Link to="/Services" className="OptBtn">
-          Services
-        </Link>
-        <Link to="/Resume" className="OptBtn">
-          Resume
-        </Link>
-        <Link to="/MyWorks" className="OptBtn">
-          Works
-        </Link>
-        <Link to="/Contact" className="OptBtn">
-          Contact
-        </Link>
+      <div className="popUp">
         <div
-          className="OptBtn laptop:scale-150"
-          style={{ border: "none" }}
-          onClick={closeMenu}
+          className="col-start-9 menu tablet:w-[23vw] laptop:text-2xl"
+          ref={menuRef}
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            height="24px"
-            viewBox="0 -960 960 960"
-            width="24px"
-            fill="#e8eaed"
+          <Link to="/" className="OptBtn" ref={optsRef}>
+            Home
+          </Link>
+          <Link to="/Services" className="OptBtn">
+            Services
+          </Link>
+          <Link to="/Resume" className="OptBtn">
+            Resume
+          </Link>
+          <Link to="/MyWorks" className="OptBtn">
+            Works
+          </Link>
+          <Link to="/Contact" className="OptBtn">
+            Contact
+          </Link>
+          <div
+            className="OptBtn laptop:scale-150"
+            style={{ border: "none" }}
+            onClick={closeMenu}
           >
-            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
-          </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24px"
+              viewBox="0 -960 960 960"
+              width="24px"
+              fill="#e8eaed"
+            >
+              <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+            </svg>
+          </div>
         </div>
       </div>
     </div>

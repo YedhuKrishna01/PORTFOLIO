@@ -3,7 +3,15 @@
     transform: translateY(-5px);
 }
 
+.navbar{
+    position: relative;
+}
+
 .menu{
+    position: absolute;
+    top: 85%;
+    left: 150%;
+    right: 0;
     background-color: rgba(0, 0, 0, 0.664);
     backdrop-filter: blur(8px);
     height: 45vh;
@@ -16,13 +24,12 @@
     margin-top: 2vh;
     border-radius: 15px;
     border: 1px solid #FE0606;
-    transform: translateX(60vw);
-    transition: transform 1s;
+    transition: left 1s;
     box-shadow: 0 0 6px 1px red;
 }
 
 .options{
-    transform: translateX(0vw);
+    left: 0;
 }
 
 .OptBtn{
