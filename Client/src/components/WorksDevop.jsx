@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function WorksDevop() {
   const slides = [
     { url: "./dev1.jpeg", site: "https://yedhukrishnagk.netlify.app" },
-    { url: "./dev2.png", site: "https://www.resena.netlify.app" },
+    { url: "./dev2.png", site: "https://resena.netlify.app" },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -30,10 +30,10 @@ function WorksDevop() {
         Development Projects
       </div>
       <div className="col-start-2 col-span-10 w-full h-auto tablet:mt-3 rounded-lg desktop:mt-5 py-4 px-1 relative">
-        <a href={`${slides[currentIndex.site]}`} target="_blank">
+        <a href={slides[currentIndex].site} target="_blank">
           <img
-            className="w-full h-40 tablet:h-80 laptop:h-[500px] desktop:h-[660px] slide rounded-lg laptop:rounded-2xl duration-500"
-            src={`${slides[currentIndex].url}`}
+            classname="w-full h-40 tablet:h-80 laptop:h-[500px] desktop:h-[660px] slide rounded-lg laptop:rounded-2xl duration-500"
+            src={slides[currentIndex].url}
           />
         </a>
 

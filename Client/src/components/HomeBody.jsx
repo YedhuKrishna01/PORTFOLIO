@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function HomeBody() {
   return (
-    <div className="grid grid-cols-12 gap-y-7 tablet:gap-y-10 mt-2 tablet:mt-7 laptop:mt-1 text-white">
-      <div className="bg-zinc-950 col-span-10 col-start-2 p-5 tablet:p-7 laptop:p-11 h-36 tablet:h-56 laptop:h-64 rounded-lg">
+    <div className="flex flex-col justify-center items-center  gap-y-7 tablet:gap-y-10 mt-2 tablet:mt-7 laptop:mt-1 text-white">
+      <div className="bg-zinc-950 w-10/12 p-5 tablet:p-7 laptop:p-11 h-36 tablet:h-56 laptop:h-64 rounded-lg">
         <div className="text-3xl tablet:text-6xl laptop:text-7xl mb-3 tablet:mb-6 flex flex-col font-semibold">
           <div className="text-sm tablet:text-lg font-light">Hello! I'm</div>
           Yedhukrishna
@@ -19,7 +19,7 @@ function HomeBody() {
       </div>
       <Link
         to="/Services"
-        className="col-start-3 col-span-8 laptop:col-start-4 laptop:col-span-6 p-5 tablet:p-6 laptop:p-7 text-lg tablet:text-3xl text-center tablet:text-right laptop:text-right overflow-hidden relative font-semibold"
+        className="w-8/12 p-5 tablet:p-6 laptop:p-7 text-lg tablet:text-3xl text-center tablet:text-right laptop:text-right overflow-hidden relative font-semibold"
       >
         <div className="absolute w-48 tablet:w-72 laptop:w-96 top-0 pt-2 serviceOne animate_scroll left-[100%]">
           WEB DEVELOPER
@@ -31,7 +31,7 @@ function HomeBody() {
           3D-MODELLIST
         </div>
       </Link>
-      <div className="bg-zinc-950 col-span-10 col-start-2 p-5 tablet:p-8 laptop:p-12 laptop:mb-8 rounded-lg">
+      <div className="bg-zinc-950 w-10/12 p-5 tablet:p-8 laptop:p-12 laptop:mb-8 rounded-lg">
         <div className="font-audio tablet:text-3xl laptop:text-2xl tablet:mb-3 laptop:mb-0">
           About me
         </div>
