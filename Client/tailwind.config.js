@@ -13,6 +13,7 @@ export default {
       'tablet': '700px',
       'laptop': '1024px',
       'desktop': '1279px',
+      'tv':'1511px',
     },
     extend:{
       colors:{

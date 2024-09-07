@@ -32,7 +32,7 @@ function Navbar() {
     <div className="h-24 tablet:h-32 laptop:h-44 text-white navbar grid grid-cols-12 pt-10">
       <Link
         to="/"
-        className="col-start-2 mt-[-20px] tablet:mt-2 laptop:mt-3 tablet:ml-5 laptop:ml-10 text-2xl h-14 w-14 border-2 border-red tablet:scale-105 laptop:scale-150 desktop:scale-125 desktop:ml-7 desktop:mt-3 rounded-full scale-90 shadow"
+        className="col-start-2 mt-[-20px] tablet:mt-2 laptop:mt-3 tablet:ml-5 laptop:ml-10 text-2xl h-14 w-14 border-2 scale-75 border-red tablet:scale-100 laptop:scale-110 desktop:ml-7 desktop:mt-3 rounded-full shadow"
       >
         <img src="/favicon.ico" />
       </Link>
@@ -73,7 +73,7 @@ function Navbar() {
       {/* The Hamburger Menu which is only shown in mobile and tablet devices */}
 
       <div
-        className="col-start-11 tablet:mt-6 laptop:mt-10 onlyMobile tablet:scale-110 laptop:scale-150"
+        className="col-start-11 tablet:mt-8 laptop:mt-12 onlyMobile tablet:scale-125 laptop:scale-150"
         ref={menuRef}
         onClick={menubar}
       >
