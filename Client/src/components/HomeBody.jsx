@@ -19,7 +19,7 @@ function HomeBody() {
       </div>
       <Link
         to="/Services"
-        className="w-8/12 laptop:w-7/12 tv:w-4/12 p-5 tablet:p-6 laptop:p-7 text-lg tablet:text-3xl text-center tablet:text-right laptop:text-right overflow-hidden relative font-semibold"
+        className="w-8/12 laptop:w-7/12 desktop:w-5/12 tv:w-4/12 p-5 tablet:p-6 laptop:p-7 text-lg tablet:text-3xl text-center tablet:text-right laptop:text-right overflow-hidden relative font-semibold"
       >
         <div className="absolute w-48 tablet:w-72 laptop:w-96 top-0 pt-2 serviceOne animate_scroll left-[100%]">
           WEB DEVELOPER
@@ -57,7 +57,7 @@ function HomeBody() {
       </div>
       <Link
         to="/Contact"
-        className="border-2 border-red hover:underline tracking-wider text-xs tablet:text-lg laptop:text-xl desktop:text-lg text-center py-2 px-4 laptop:py-4 laptop:px-20 desktop:py-3 rounded-md mb-8 font-audio"
+        className="border-2 border-red hover:underline tracking-wider text-xs tablet:text-lg laptop:text-xl desktop:text-sm text-center py-2 px-4 laptop:py-4 laptop:px-8 desktop:py-3 rounded-md mb-8 font-audio"
       >
         Collaborate {">>"}
       </Link>

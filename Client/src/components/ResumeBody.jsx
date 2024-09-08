@@ -7,38 +7,38 @@ function ResumeBody() {
   return (
     <div className="text-white tablet:mt-8 grid grid-cols-12">
       <div className="col-span-10 col-start-2">
-        <div className="font-audio text-lg tablet:text-3xl laptop:text-4xl flex justify-center">
+        <div className="font-audio text-lg tablet:text-3xl laptop:text-4xl desktop:text-3xl flex justify-center">
           Why hire me?
         </div>
         <div className="col-span-10 flex flex-col mt-5 rounded-md items-center gap-2 tablet:gap-5 desktop:mt-10 text-center py-5 col-start-2">
           <button
             onClick={() => setSelectedSection("Experience")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 desktop:w-2/6 ${
-              selectedSection === "Experience" ? "scale-125 border-red" : ""
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 ${
+              selectedSection === "Experience" ? "scale-110 border-[1px] border-red" : ""
             }`}
           >
             Experience
           </button>
           <button
             onClick={() => setSelectedSection("Education")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 desktop:w-2/6 ${
-              selectedSection === "Education" ? "scale-125 border-red" : ""
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 ${
+              selectedSection === "Education" ? "scale-110 border-[1px] border-red" : ""
             }`}
           >
             Education
           </button>
           <button
             onClick={() => setSelectedSection("Skills")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 desktop:w-2/6 ${
-              selectedSection === "Skills" ? "scale-125 border-red" : ""
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 ${
+              selectedSection === "Skills" ? "scale-110 border-[1px] border-red" : ""
             }`}
           >
             Skills
           </button>
           <button
             onClick={() => setSelectedSection("About me")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-3/5 tablet:text-2xl tablet:py-2 desktop:w-2/6 ${
-              selectedSection === "About me" ? "scale-125 border-red" : ""
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 ${
+              selectedSection === "About me" ? "scale-110 border-[1px] border-red" : ""
             }`}
           >
             About me
@@ -49,23 +49,23 @@ function ResumeBody() {
 
           {selectedSection === "Experience" && (
             <div className="tablet:flex tablet:flex-col tablet:items-center">
-              <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl border-x-2">
+              <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl desktop:text-3xl desktop:w-10/12 border-x-2">
                 Experience
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 laptop:mt-14 items-center">
-                <div className="text-red laptop:text-lg">05/2024 - Present</div>
-                <div className="font-bold text-lg tablet:text-2xl laptop:text-3xl">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 laptop:p-7 laptop:mt-14 items-center">
+                <div className="text-red laptop:text-lg desktop:text-sm">05/2024 - Present</div>
+                <div className="font-bold text-lg tablet:text-2xl laptop:text-3xl desktop:text-xl">
                   Freelancer
                 </div>
                 <div>
-                  <ul className="list-disc text-xs tablet:text-base laptop:text-lg list-inside">
+                  <ul className="list-disc text-xs tablet:text-base laptop:text-lg desktop:text-sm list-inside">
                     <li>E-Commerce Platform</li>
                     <li>Designed a Blog</li>
                     <li>Designed a coding site</li>
                   </ul>
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6  desktop:w-4/12 laptop:p-7 items-center">
                 <div className="text-red laptop:text-lg">03/2024 - 05/2024</div>
                 <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl">
                   Full stack Internship(Django)
@@ -74,7 +74,7 @@ function ResumeBody() {
                   At Business Web Solutions(BWS)
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 laptop:p-7 items-center">
                 <div className="text-red laptop:text-lg">01/2024 - 02/2024</div>
                 <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl">
                   Full stack Internship(MERN)
@@ -83,7 +83,7 @@ function ResumeBody() {
                   At Synnefo Solutions
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 laptop:p-7 items-center">
                 <div className="text-red laptop:text-lg">12/2021 - 01/2022</div>
                 <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl">
                   Internship in Embedded System & IoT

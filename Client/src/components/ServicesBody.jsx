@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function ServicesBody() {
   return (
-    <div className="grid gap-y-10 tablet:gap-16 grid-cols-12">
-      <div className="text-white col-start-2 col-span-10 laptop:col-span-5 laptop:col-start-2  h-auto tablet:mt-7 bg-zinc-950 p-5 rounded-lg">
+    <div className="flex gap-y-10 tablet:gap-16 flex-col items-center">
+      <div className="text-white w-10/12 laptop:w-8/12 desktop:w-6/12 tv:w-5/12 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-500 h-auto tablet:mt-7 bg-zinc-950 p-5 rounded-lg">
         <div className="font-audio text-lg tablet:text-3xl flex justify-center">
           Web Development
           <Link
@@ -34,7 +34,7 @@ function ServicesBody() {
           user-friendly.
         </div>
       </div>
-      <div className="text-white col-start-2 col-span-10 laptop:col-span-5 h-auto bg-zinc-950 p-5 rounded-lg laptop:mt-7">
+      <div className="text-white w-10/12 laptop:w-8/12 desktop:w-6/12 tv:w-5/12 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-500 h-auto bg-zinc-950 p-5 rounded-lg laptop:mt-7">
         <div className="font-audio text-lg tablet:text-3xl flex justify-center">
           UI Designing
           <Link
@@ -63,7 +63,7 @@ function ServicesBody() {
           and effective in meeting business objectives.
         </div>
       </div>
-      <div className="text-white col-start-2 col-span-10 lg:col-span-5 lg:col-start-2 h-auto bg-zinc-950 p-5 rounded-lg">
+      <div className="text-white w-10/12 laptop:w-8/12 desktop:w-6/12 tv:w-5/12 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-500 h-auto bg-zinc-950 p-5 rounded-lg">
         <div className="font-audio text-lg tablet:text-3xl flex justify-center">
           3D-Modelling
           <Link
@@ -94,8 +94,8 @@ function ServicesBody() {
           compelling 3D assets.
         </div>
       </div>
-      <div className="text-white col-start-2 col-span-10 lg:col-span-5 h-auto bg-zinc-950 mb-10 p-5 tablet:p-9 rounded-lg">
-        <div className="font-audio text-lg tablet:text-3xl flex gap-2 justify-center animate-pulse items-center h-full">
+      <div className="text-white w-10/12 tablet:w-5/12 laptop:w-4/12 desktop:w-2/12 tv:w-2/16 hover:scale-110 transition-all h-auto bg-zinc-950 mb-10 p-5 rounded-lg">
+        <div className="font-audio text-lg desktop:text-base flex justify-center animate-pulse items-center h-full">
           Learning More...
         </div>
       </div>

@@ -10,7 +10,6 @@ html,body{
 
 @media screen and (min-width:700px){
     .notMobile{
-        font-size: small;
         text-align: center;
     }
 }

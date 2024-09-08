@@ -18,6 +18,9 @@ export default {
     extend:{
       colors:{
         'red':'#FE0606'
+      },
+      gridTemplateColumns: {
+        '16': 'repeat(16, minmax(0, 1fr))',
       }
     }
   },

@@ -29,10 +29,10 @@ function Navbar() {
   }
 
   return (
-    <div className="h-24 tablet:h-32 laptop:h-44 text-white navbar grid grid-cols-12 pt-10">
+    <div className="h-24 tablet:h-32 laptop:h-44 text-white navbar grid grid-cols-12 tv:grid-cols-16 pt-10">
       <Link
         to="/"
-        className="col-start-2 mt-[-20px] tablet:mt-2 laptop:mt-3 tablet:ml-5 laptop:ml-10 text-2xl h-14 w-14 border-2 scale-75 border-red tablet:scale-100 laptop:scale-110 desktop:ml-7 desktop:mt-3 rounded-full shadow"
+        className="col-start-2 laptop:col-start-3 tv:col-start-5 mt-[-20px] tablet:mt-2 tablet:ml-5 laptop:ml-0 text-2xl h-14 w-14 border-2 scale-75 border-red tablet:scale-100 laptop:scale-125 desktop:scale-110 laptop:mt-7 desktop:ml-2 desktop:mt-3 rounded-full shadow"
       >
         <img src="/favicon.ico" />
       </Link>
@@ -41,31 +41,31 @@ function Navbar() {
 
       <Link
         to="/"
-        className="col-start-7 text-xl hover:text-zinc-400 font-semibold mt-8 notMobile"
+        className="col-start-6 tv:col-start-8  text-lg hover:text-zinc-400 font-semibold mt-8 notMobile"
       >
         Home
       </Link>
       <Link
         to="/Services"
-        className="notMobile text-xl hover:text-zinc-400 font-semibold mt-8"
+        className="notMobile text-lg hover:text-zinc-400 font-semibold mt-8"
       >
         Services
       </Link>
       <Link
         to="/Resume"
-        className="notMobile text-xl hover:text-zinc-400 font-semibold mt-8"
+        className="notMobile text-lg hover:text-zinc-400 font-semibold mt-8"
       >
         Resume
       </Link>
       <Link
         to="/MyWorks"
-        className="notMobile text-xl hover:text-zinc-400 font-semibold mt-8"
+        className="notMobile text-lg hover:text-zinc-400 font-semibold mt-8"
       >
         Works
       </Link>
       <Link
         to="/Contact"
-        className="notMobile text-xl hover:text-zinc-400 font-semibold mt-8"
+        className="notMobile text-lg hover:text-zinc-400 font-semibold mt-8"
       >
         Contact
       </Link>
@@ -73,7 +73,7 @@ function Navbar() {
       {/* The Hamburger Menu which is only shown in mobile and tablet devices */}
 
       <div
-        className="col-start-11 tablet:mt-8 laptop:mt-12 onlyMobile tablet:scale-125 laptop:scale-150"
+        className="col-start-11 tablet:mt-8 tablet:ml-6 laptop:mt-16 laptop:ml-2 onlyMobile tablet:scale-125 laptop:scale-150"
         ref={menuRef}
         onClick={menubar}
       >
