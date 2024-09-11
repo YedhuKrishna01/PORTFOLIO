@@ -13,32 +13,32 @@ function ResumeBody() {
         <div className="col-span-10 flex flex-col mt-5 rounded-md items-center gap-2 tablet:gap-5 desktop:mt-10 text-center py-5 col-start-2">
           <button
             onClick={() => setSelectedSection("Experience")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 ${
-              selectedSection === "Experience" ? "scale-110 border-[1px] border-red" : ""
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 tv:w-2/12 tv:text-lg ${
+              selectedSection === "Experience" ? "scale-110 tv:scale-100 tv:w-3/12 border-[1px] border-red" : ""
             }`}
           >
             Experience
           </button>
           <button
             onClick={() => setSelectedSection("Education")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 ${
-              selectedSection === "Education" ? "scale-110 border-[1px] border-red" : ""
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 tv:w-2/12 tv:text-lg ${
+              selectedSection === "Education" ? "scale-110 tv:scale-100 tv:w-3/12 border-[1px] border-red" : ""
             }`}
           >
             Education
           </button>
           <button
             onClick={() => setSelectedSection("Skills")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 ${
-              selectedSection === "Skills" ? "scale-110 border-[1px] border-red" : ""
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 tv:w-2/12 tv:text-lg ${
+              selectedSection === "Skills" ? "scale-110 tv:scale-100 tv:w-3/12 border-[1px] border-red" : ""
             }`}
           >
             Skills
           </button>
           <button
             onClick={() => setSelectedSection("About me")}
-            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 ${
-              selectedSection === "About me" ? "scale-110 border-[1px] border-red" : ""
+            className={`rounded-md py-1 bg-zinc-950 w-4/5 tablet:w-2/5 tablet:text-xl tablet:py-2 desktop:w-3/12 tv:w-2/12 tv:text-lg ${
+              selectedSection === "About me" ? "scale-110 tv:scale-100 tv:w-3/12 border-[1px] border-red" : ""
             }`}
           >
             About me
@@ -52,9 +52,9 @@ function ResumeBody() {
               <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl desktop:text-3xl desktop:w-10/12 border-x-2">
                 Experience
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 laptop:p-7 laptop:mt-14 items-center">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 tv:w-3/12 laptop:p-7 laptop:mt-14 items-center">
                 <div className="text-red laptop:text-lg desktop:text-sm">05/2024 - Present</div>
-                <div className="font-bold text-lg tablet:text-2xl laptop:text-3xl desktop:text-xl">
+                <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl desktop:text-xl">
                   Freelancer
                 </div>
                 <div>
@@ -65,30 +65,30 @@ function ResumeBody() {
                   </ul>
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6  desktop:w-4/12 laptop:p-7 items-center">
-                <div className="text-red laptop:text-lg">03/2024 - 05/2024</div>
-                <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 tv:w-3/12 laptop:p-7 items-center">
+                <div className="text-red laptop:text-lg desktop:text-sm">03/2024 - 05/2024</div>
+                <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl desktop:text-xl">
                   Full stack Internship(Django)
                 </div>
-                <div className="text-center text-xs tablet:text-base laptop:text-lg">
+                <div className="text-center text-xs tablet:text-base laptop:text-lg desktop:text-sm">
                   At Business Web Solutions(BWS)
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 laptop:p-7 items-center">
-                <div className="text-red laptop:text-lg">01/2024 - 02/2024</div>
-                <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 tv:w-3/12 laptop:p-7 items-center">
+                <div className="text-red laptop:text-lg desktop:text-sm">01/2024 - 02/2024</div>
+                <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl desktop:text-xl">
                   Full stack Internship(MERN)
                 </div>
-                <div className="text-center text-xs tablet:text-base laptop:text-lg">
+                <div className="text-center text-xs tablet:text-base laptop:text-lg desktop:text-sm">
                   At Synnefo Solutions
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 laptop:p-7 items-center">
-                <div className="text-red laptop:text-lg">12/2021 - 01/2022</div>
-                <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 tv:w-3/12 laptop:p-7 items-center">
+                <div className="text-red laptop:text-lg desktop:text-sm">12/2021 - 01/2022</div>
+                <div className="font-bold text-center text-lg tablet:text-2xl laptop:text-3xl desktop:text-xl">
                   Internship in Embedded System & IoT
                 </div>
-                <div className="text-center text-xs tablet:text-base laptop:text-lg">
+                <div className="text-center text-xs tablet:text-base laptop:text-lg desktop:text-sm">
                   At Centre for Skill Enhancement & Employability
                   Development(CSEED){" "}
                 </div>
@@ -100,42 +100,42 @@ function ResumeBody() {
 
           {selectedSection === "Education" && (
             <div className="tablet:flex tablet:flex-col tablet:items-center">
-              <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl border-x-2">
+              <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl desktop:text-3xl desktop:w-10/12 border-x-2">
                 Education
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 laptop:mt-14 items-center">
-                <div className="text-red laptop:text-lg">08/2023 - 01/2024</div>
-                <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 tv:w-3/12 laptop:p-7 laptop:mt-14 items-center">
+                <div className="text-red laptop:text-lg desktop:text-sm">08/2023 - 01/2024</div>
+                <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl desktop:text-xl">
                   Full Stack Web Development(MERN)
                 </div>
-                <div className="text-center text-xs tablet:text-base laptop:text-lg">
+                <div className="text-center text-xs tablet:text-base laptop:text-lg desktop:text-sm">
                   At Synnefo Solutions
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
-                <div className="text-red laptop:text-lg">11/2023 - 01/2024</div>
-                <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 tv:w-3/12 laptop:p-7 laptop:mt-14 items-center">
+                <div className="text-red laptop:text-lg desktop:text-sm">11/2023 - 01/2024</div>
+                <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl desktop:text-xl">
                   Web Development Bootcamp 2024
                 </div>
-                <div className="text-center text-xs tablet:text-base laptop:text-lg">
+                <div className="text-center text-xs tablet:text-base laptop:text-lg desktop:text-sm">
                   At Udemy Online Platform
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
-                <div className="text-red laptop:text-lg">08/2019 - 07/2023</div>
-                <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 tv:w-3/12 laptop:p-7 laptop:mt-14 items-center">
+                <div className="text-red laptop:text-lg desktop:text-sm">08/2019 - 07/2023</div>
+                <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl desktop:text-xl">
                   B.tech in EEE
                 </div>
-                <div className="text-center text-xs tablet:text-base laptop:text-lg">
+                <div className="text-center text-xs tablet:text-base laptop:text-lg desktop:text-sm">
                   At Vidya Academy of Science & Technology
                 </div>
               </div>
-              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-5/12 laptop:p-7 items-center">
-                <div className="text-red laptop:text-lg">04/2021 - 06/2021</div>
-                <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl">
+              <div className="mt-10 bg-zinc-950 shadowsLg p-5 rounded-md flex flex-col gap-2 tablet:gap-1 tablet:w-3/5 laptop:w-3/6 desktop:w-4/12 tv:w-3/12 laptop:p-7 laptop:mt-14 items-center">
+                <div className="text-red laptop:text-lg desktop:text-sm">04/2021 - 06/2021</div>
+                <div className="font-bold text-center tablet:text-2xl text-lg laptop:text-3xl desktop:text-xl">
                   Python For Everybody(Basics)
                 </div>
-                <div className="text-center text-xs tablet:text-base laptop:text-lg">
+                <div className="text-center text-xs tablet:text-base laptop:text-lg desktop:text-sm">
                   At Coursera Online Platform
                 </div>
               </div>
@@ -146,82 +146,82 @@ function ResumeBody() {
 
           {selectedSection === "Skills" && (
             <div className="tablet:flex tablet:flex-col tablet:items-center">
-              <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl border-x-2">
+              <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl desktop:text-3xl desktop:w-10/12 border-x-2">
                 Skills
               </div>
-              <div className="grid mt-10 grid-cols-2 tablet:grid-cols-3 laptop:mt-14 gap-4">
-                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+              <div className="grid mt-10 grid-cols-2 tablet:grid-cols-3 tv:grid-cols-4 laptop:mt-14 gap-4 desktop:gap-0">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     HTML
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     CSS
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Javascript
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Bootstrap
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Tailwind
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     JQuery
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     ReactJs
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     NodeJs
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     ExpressJs
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     MongoDB
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 laptop:p-7 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Blender
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Figma
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     Framer
                   </div>
                 </div>
-                <div className="flex flex-col justify-center p-5 rounded-md shadows items-center bg-zinc-950">
+                <div className="flex flex-col justify-center p-5 rounded-md shadows desktop:scale-75 items-center bg-zinc-950 transition ease-in-out desktop:hover:-translate-y-1 desktop:hover:scale-90 duration-500">
                   <div className="text-sm tablet:text-base laptop:text-2xl font-audio">
                     +
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col tablet:text-xl tablet:w-5/6 laptop:w-4/6 laptop:mt-14 laptop:text-2xl laptop:gap-4 justify-center gap-2 items-center p-3 mt-10 rounded-md">
+              <div className="flex flex-col tablet:text-xl tablet:w-5/6 laptop:w-4/6 laptop:mt-14 laptop:text-2xl desktop:text-xl laptop:gap-4 justify-center gap-2 items-center p-3 mt-10 rounded-md">
                 <div className="italic font-light">
                   "Anyone who stops learning is old, whether at twenty or
                   eighty. Anyone who keeps learning stays young"
@@ -232,68 +232,71 @@ function ResumeBody() {
               </div>
             </div>
           )}
+
+          {/* About me portion of the resume page */}
+
           {selectedSection === "About me" && (
             <div className="tablet:flex tablet:flex-col tablet:items-center">
-              <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl border-x-2">
+              <div className="font-audio text-center text-lg tablet:text-3xl tablet:w-full laptop:text-4xl desktop:text-3xl desktop:w-10/12 border-x-2">
                 About me
               </div>
-              <div className="break-words text-sm tablet:text-lg laptop:text-2xl desktop:text-2xl desktop:w-8/12 text-center mt-10 tablet:mt-14">
+              <div className="break-words text-sm tablet:text-lg laptop:text-2xl desktop:text-xl desktop:w-8/12 text-center mt-10 tablet:mt-14">
                 A curious developer constantly exploring new technologies on the
                 internet, eager to apply my skills to benefit others.
               </div>
               <div className="mt-10 tablet:mt-14 flex flex-col p-5 tablet:p-14 shadowsLg gap-1 break-words rounded-md">
-                <div className="text-gray-500 font-audio text-sm tablet:text-lg">
+                <div className="text-gray-500 font-audio text-sm tablet:text-lg desktop:text-base">
                   Name:
                 </div>
-                <div className="text-base tablet:text-2xl font-audio">
+                <div className="text-base tablet:text-2xl desktop:text-xl font-audio">
                   Yedhukrishna K S
                 </div>
-                <div className="text-gray-500 font-audio text-sm tablet:text-lg">
+                <div className="text-gray-500 font-audio text-sm tablet:text-lg desktop:text-base">
                   Phone:
                 </div>
-                <div className="text-base tablet:text-2xl font-audio">
+                <div className="text-base tablet:text-2xl desktop:text-xl font-audio">
                   (+91)8592803244
                 </div>
-                <div className="text-gray-500 font-audio text-sm tablet:text-lg">
+                <div className="text-gray-500 font-audio text-sm tablet:text-lg desktop:text-base">
                   Experience
                 </div>
-                <div className="text-base tablet:text-2xl font-audio">
+                <div className="text-base tablet:text-2xl desktop:text-xl font-audio">
                   1 Year
                 </div>
-                <div className="text-gray-500 font-audio text-sm tablet:text-lg">
+                <div className="text-gray-500 font-audio text-sm tablet:text-lg desktop:text-base">
                   Email
                 </div>
-                <div className="text-base tablet:text-2xl font-audio">
+                <div className="text-base tablet:text-2xl desktop:text-xl font-audio">
                   yedhukrishnagk@gmail.com
                 </div>
-                <div className="text-gray-500 font-audio text-sm tablet:text-lg">
+                <div className="text-gray-500 font-audio text-sm tablet:text-lg desktop:text-base">
                   Nationality
                 </div>
-                <div className="text-base tablet:text-2xl font-audio">
+                <div className="text-base tablet:text-2xl desktop:text-xl font-audio">
                   India
                 </div>
-                <div className="text-gray-500 font-audio text-sm tablet:text-lg">
+                <div className="text-gray-500 font-audio text-sm tablet:text-lg desktop:text-base">
                   Freelance
                 </div>
-                <div className="text-base tablet:text-2xl font-audio">
+                <div className="text-base tablet:text-2xl desktop:text-xl font-audio">
                   Available
                 </div>
-                <div className="text-gray-500 font-audio text-sm tablet:text-lg">
+                <div className="text-gray-500 font-audio text-sm tablet:text-lg desktop:text-base">
                   Languages
                 </div>
-                <div className="text-base tablet:text-2xl font-audio">
+                <div className="text-base tablet:text-2xl desktop:text-xl font-audio">
                   English, Malayalam, Hindi, Tamil
                 </div>
-                <div className="text-gray-500 font-audio text-sm tablet:text-lg">
+                <div className="text-gray-500 font-audio text-sm tablet:text-lg desktop:text-base">
                   Interests
                 </div>
-                <div className="text-base tablet:text-2xl font-audio">
+                <div className="text-base tablet:text-2xl desktop:text-xl font-audio">
                   Coding, Designing
                 </div>
-                <div className="text-gray-500 font-audio text-sm tablet:text-lg">
+                <div className="text-gray-500 font-audio text-sm tablet:text-lg desktop:text-base">
                   Hobbies
                 </div>
-                <div className="text-base tablet:text-2xl font-audio">
+                <div className="text-base tablet:text-2xl desktop:text-xl font-audio">
                   Music, Reading, Gaming, TV
                 </div>
               </div>
