@@ -94,7 +94,7 @@ function ServicesBody() {
           compelling 3D assets.
         </div>
       </div>
-      <div className="text-white w-10/12 tablet:w-5/12 laptop:w-4/12 desktop:w-2/12 tv:w-2/16 hover:scale-110 transition-all h-auto bg-zinc-950 mb-10 p-5 rounded-lg">
+      <div className="text-white w-10/12 tablet:w-5/12 laptop:w-4/12 desktop:w-2/12 tv:w-2/16 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-500 h-auto bg-zinc-950 mb-10 p-5 rounded-lg">
         <div className="font-audio text-lg desktop:text-base flex justify-center animate-pulse items-center h-full">
           Learning More...
         </div>
