@@ -43,9 +43,9 @@ function ContactsBody() {
 
   return (
     <div className="grid outer grid-cols-12">
-      <div className="col-start-2 col-span-10 tablet:col-start-3 tablet:col-span-8 flex flex-col justify-center items-center h-full text-center font-audio text-xl tablet:text-3xl laptop:text-4xl desktop:text-3xl text-white mt-5">
+      <div className="col-start-2 col-span-10 tablet:col-start-3 tablet:col-span-8 tv:col-start-4 tv:col-span-6 flex flex-col justify-center items-center h-full text-center font-audio text-xl tablet:text-3xl laptop:text-4xl desktop:text-3xl text-white mt-5">
         <div>Would you like to contact or hire me?</div>
-        <section className="flex shadowsLg mb-10 mt-10 rounded-md w-full tablet:p-14 laptop:w-11/12 desktop:w-6/12 laptop:p-14 desktop:p-10 tablet:mt-14 h-auto p-7">
+        <section className="flex shadowsLg mb-10 mt-10 rounded-md w-full tablet:p-14 laptop:w-11/12 desktop:w-6/12 laptop:p-14 desktop:p-10 desktop:pt-8 tablet:mt-14 h-auto p-7">
           <form
             onSubmit={onSubmit}
             className="flex flex-col text-left space-y-2 tablet:space-y-6 desktop:space-y-3 w-full"
@@ -62,7 +62,7 @@ function ContactsBody() {
                 type="text"
                 id="name"
                 name="name"
-                className="p-2 rounded-md mt-1 bg-zinc-900 font-mont text-sm tablet:text-xl laptop:text-2xl placeholder:pl-1 placeholder:text-sm placeholder:font-mont tablet:placeholder:text-lg laptop:placeholder:text-2xl tablet:mt-3 laptop:mt-5 desktop:mt-2 desktop:placeholder:text-lg desktop:text-xl w-full"
+                className="p-2 rounded-md mt-1 bg-zinc-900 font-mont text-sm tablet:text-xl laptop:text-2xl placeholder:pl-1 placeholder:text-sm placeholder:font-mont tablet:placeholder:text-lg laptop:placeholder:text-2xl tablet:mt-3 laptop:mt-5 desktop:mt-2 desktop:placeholder:text-lg tv:placeholder:text-base desktop:text-xl w-full"
                 placeholder="Enter your name"
                 required
               />
@@ -79,7 +79,7 @@ function ContactsBody() {
                 type="email"
                 id="email"
                 name="email"
-                className="p-2 rounded-md mt-1  bg-zinc-900 font-mont text-sm tablet:text-xl laptop:text-2xl placeholder:pl-1 placeholder:text-sm placeholder:font-mont tablet:placeholder:text-lg laptop:placeholder:text-2xl tablet:mt-3 laptop:mt-5 desktop:mt-2 desktop:placeholder:text-lg desktop:text-xl w-full"
+                className="p-2 rounded-md mt-1  bg-zinc-900 font-mont text-sm tablet:text-xl laptop:text-2xl placeholder:pl-1 placeholder:text-sm placeholder:font-mont tablet:placeholder:text-lg laptop:placeholder:text-2xl tablet:mt-3 laptop:mt-5 desktop:mt-2 desktop:placeholder:text-lg tv:placeholder:text-base desktop:text-xl w-full"
                 placeholder="Enter your email"
                 required
               />
@@ -95,7 +95,7 @@ function ContactsBody() {
               <textarea
                 id="message"
                 name="message"
-                className="p-2 rounded-md mt-1 h-[30vh] resize-none bg-zinc-900 text-sm tablet:text-xl laptop:text-2xl font-mont placeholder:pl-1 placeholder:text-sm placeholder:font-mont tablet:placeholder:text-lg laptop:placeholder:text-2xl tablet:mt-3 laptop:mt-5 desktop:mt-2 desktop:placeholder:text-lg desktop:text-xl w-full"
+                className="p-2 rounded-md mt-1 h-[30vh] resize-none bg-zinc-900 text-sm tablet:text-xl laptop:text-2xl font-mont placeholder:pl-1 placeholder:text-sm placeholder:font-mont tablet:placeholder:text-lg laptop:placeholder:text-2xl tablet:mt-3 laptop:mt-5 desktop:mt-2 desktop:placeholder:text-lg tv:placeholder:text-base desktop:text-xl w-full"
                 placeholder="Enter your message"
                 required
               ></textarea>
