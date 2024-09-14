@@ -34,34 +34,34 @@ function WorksDevop() {
   };
 
   return (
-    <div className="grid grid-cols-12 mt-7">
-      <div className="text-white col-start-2 col-span-10 text-lg tablet:text-3xl tablet:pl-4 laptop:text-4xl font-audio">
+    <div className="grid grid-cols-12 mt-7 mb-3 tablet:mb-8">
+      <div className="text-white col-start-2 col-span-10 laptop:col-start-3 laptop:col-span-8 tv:col-start-4 tv:col-span-6 text-lg tablet:text-3xl tablet:pl-8 laptop:text-4xl desktop:text-2xl font-audio">
         Developed Projects
       </div>
-      <div className="works col-span-12 tablet:mt-3 h-auto py-4 px-8 relative">
+      <div className="works col-span-12 tablet:col-start-2 tablet:col-span-10 laptop:col-start-3 laptop:col-span-8 tv:col-start-4 tv:col-span-6 h-auto py-4 px-8 relative">
         <img
-          className="w-full h-44 tablet:h-80 border-[0.5px] laptop:h-[500px] desktop:h-[660px] slide rounded-lg laptop:rounded-2xl duration-500"
+          className="w-full h-44 phone:h-52 tablet:h-80 border-[0.5px] laptop:h-[22rem] desktop:h-[28rem] tv:h-[26rem] ltv:h-[30rem] slide rounded-lg laptop:rounded-2xl duration-500"
           src={`${slides[currentIndex].url}`}
           alt={slides[currentIndex].name}
         />
-        <div className="text-center text-orange-500 mt-4">
+        <div className="text-center text-orange-400 mt-4 tablet:mt-5">
           <a
             href={slides[currentIndex].site}
             target="_blank"
-            className="font-semibold underline underline-offset-2"
+            className="font-semibold tablet:text-2xl laptop:text-3xl desktop:text-2xl underline underline-offset-2"
           >
             {slides[currentIndex].name}
           </a>
         </div>
         <BsChevronCompactLeft
           onClick={prevSlide}
-          size={30}
-          className="absolute top-[36%] left-8 text-2xl tablet:scale-150 rounded-full p-2 text-gray-400 cursor-pointer"
+          size={40}
+          className="absolute top-[35%] laptop:top-[40%] left-8 text-2xl tablet:scale-150 rounded-full p-2 text-gray-400 cursor-pointer"
         />
         <BsChevronCompactRight
           onClick={nextSlide}
-          size={30}
-          className="absolute top-[36%] right-8 text-2xl tablet:scale-150 rounded-full p-2 text-gray-400 cursor-pointer"
+          size={40}
+          className="absolute top-[35%] laptop:top-[40%] right-8 text-2xl tablet:scale-150 rounded-full p-2 text-gray-400 cursor-pointer"
         />
       </div>
       <div className="col-start-2 col-span-10 flex mt-[-0.75rem] mb-5 justify-center">

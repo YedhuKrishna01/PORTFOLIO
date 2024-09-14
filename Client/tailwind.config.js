@@ -10,10 +10,12 @@ export default {
       'audio':["Audiowide","sans-serif"]
     },
     screens: {
+      'phone':'400px',
       'tablet': '700px',
       'laptop': '1024px',
       'desktop': '1279px',
       'tv':'1511px',
+      'ltv':'1639px'
     },
     extend:{
       colors:{
